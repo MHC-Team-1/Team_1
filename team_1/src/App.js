@@ -1,9 +1,11 @@
-import Hello from './Hello';
+import Home from './Home';
+
 
 function App() {
-  return (
+  return ( 
     <div>
-      <Hello />
+      <Home />
+
     </div>
   );
 }
