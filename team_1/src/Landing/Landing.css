@@ -1,0 +1,134 @@
+
+body{
+    background: #01A560;
+
+    margin: 10px;
+    font-family: Arial;
+    text-align: center;
+
+    
+}
+
+/* 랜딩페이지  
+position: relative;
+width: 411px;
+height: 823px;
+overflow-y: scroll;*/
+
+.title {
+    /* 구스팜(로고) */
+
+    position: absolute;
+    width: auto;
+    height: 450px;
+    margin: 50px;
+    /* 행간 line-height : 100px; */
+ 
+    /* H1 */
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100px;
+    /* identical to box height, or 100% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'calt' off;
+
+    color: #FFFFFF;
+
+  }
+
+.sub{
+    /* good+farm이다 (슬로건) */
+
+    position: inherit;
+    width: 260px;
+    margin: auto;
+    height: 0px;
+    margin-top: 10px;
+ 
+
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'calt' off;
+
+    color: #FFFFFF;
+  }
+
+  .text{
+    position : absolute;
+    width: auto;
+    height: 100px;
+    margin-top: 450px;
+    
+    /* Body */
+    
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'calt' off;
+    
+    color: #FFFFFF;
+  }
+
+/*<button type="gamebtn">게임시작</button> */
+/*
+  .gamebtn{
+        
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 24px;
+
+    position: absolute;
+    width: 500px;
+    height: 63px;
+
+    background: #FFFFFF;
+    border-radius: 46px;
+  }
+  */
+
+  .link{
+    position: absolute;
+    width: 300px;
+    height: 10px;
+    margin: auto;
+    margin-top: 700px;
+    
+    /* Link */
+    
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    font-feature-settings: 'calt' off;
+    
+    color: #FFFFFF;
+  }
