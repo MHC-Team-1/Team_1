@@ -1,0 +1,132 @@
+body{
+    max-width: 500px;
+    background: #fff;
+    
+    margin-left : auto;
+    margin-right: auto;
+
+
+    font-family: Arial;
+    text-align: center;
+}
+
+.pic{
+    margin-left : auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: url(https://item.kakaocdn.net/do/bf9484270292c7d8dc3e014beabb26a68f324a0b9c48f77dbce3a43bd11ce785);
+}
+
+.btn1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width: 332px;
+    height: 63px;
+    border-radius: 46px;
+    border:0;
+    outline: 0;
+    background: #DADADA;
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;  
+}
+
+.btn2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    width: 332px;
+    height: 63px;
+    border-radius: 46px;
+    border:0;
+    outline: 0;
+    background: #5DFFC1;
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;  
+}
+
+.he1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'calt' off;
+
+    color: #000000;
+}
+
+.he2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'calt' off;
+
+    color: #5F5F5F;
+}
+
+.he3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    width: 178px;
+    height: 22px;
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'calt' off;
+
+    color: #000000;
+}
