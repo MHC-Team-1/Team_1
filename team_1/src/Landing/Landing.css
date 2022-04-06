@@ -1,134 +1,162 @@
-
 body{
-    background: #01A560;
+  max-width: 500px;
+  background: #fff;
+  
+  margin-left : auto;
+  margin-right: auto;
 
-    margin: 10px;
-    font-family: Arial;
-    text-align: center;
 
-    
+  font-family: Arial;
+  text-align: center;
+
+  background-color: #088E5B;
+
 }
 
-/* 랜딩페이지  
-position: relative;
-width: 411px;
-height: 823px;
-overflow-y: scroll;*/
+.pic{
+  margin-top: 100px;
+  margin-left : auto;
+  margin-right: auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: url(https://item.kakaocdn.net/do/bf9484270292c7d8dc3e014beabb26a68f324a0b9c48f77dbce3a43bd11ce785);
+}
 
-.title {
-    /* 구스팜(로고) */
+.btn1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 10px;
 
-    position: absolute;
-    width: auto;
-    height: 450px;
-    margin: 50px;
-    /* 행간 line-height : 100px; */
- 
-    /* H1 */
+  width: 332px;
+  height: 63px;
+  border-radius: 46px;
+  border:0;
+  outline: 0;
+  background: #ffffff;
 
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 100px;
-    /* identical to box height, or 100% */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;  
+}
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.02em;
-    font-feature-settings: 'calt' off;
+.btn2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  width: 332px;
+  height: 63px;
+  border-radius: 46px;
+  border:0;
+  outline: 0;
 
-    color: #FFFFFF;
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;  
+}
 
-  }
+.he1{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
-.sub{
-    /* good+farm이다 (슬로건) */
+  display: flex;
+  justify-content: space-around;
 
-    position: inherit;
-    width: 260px;
-    margin: auto;
-    height: 0px;
-    margin-top: 10px;
- 
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'calt' off;
+
+  color: #ffffff;
+}
+
+.he2{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
 
 
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100px;
-    /* or 150% */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 
-    text-align: center;
-    letter-spacing: -0.02em;
-    font-feature-settings: 'calt' off;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'calt' off;
 
-    color: #FFFFFF;
-  }
+  color: #ffffff;
+}
 
-  .text{
-    position : absolute;
-    width: auto;
-    height: 100px;
-    margin-top: 450px;
-    
-    /* Body */
-    
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    /* or 138% */
-    
-    text-align: center;
-    letter-spacing: -0.02em;
-    font-feature-settings: 'calt' off;
-    
-    color: #FFFFFF;
-  }
+.he3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
 
-/*<button type="gamebtn">게임시작</button> */
-/*
-  .gamebtn{
-        
+  width: 178px;
+  height: 22px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 13px 24px;
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: bold;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 
-    position: absolute;
-    width: 500px;
-    height: 63px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'calt' off;
 
-    background: #FFFFFF;
-    border-radius: 46px;
-  }
-  */
+  color: #ffffff;
+}
 
-  .link{
-    position: absolute;
-    width: 300px;
-    height: 10px;
-    margin: auto;
-    margin-top: 700px;
-    
-    /* Link */
-    
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    
-    letter-spacing: -0.02em;
-    text-decoration-line: underline;
-    font-feature-settings: 'calt' off;
-    
-    color: #FFFFFF;
-  }
+
+.he4{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+
+  width: 178px;
+  height: 22px;
+
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: bold;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: underline;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'calt' off;
+
+  color: #ffffff;
+}
