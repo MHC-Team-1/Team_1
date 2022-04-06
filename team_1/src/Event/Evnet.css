@@ -1,7 +1,11 @@
 body{
     max-width: 500px;
     background: #fff;
-    margin: 0 auto;
+    
+    margin-left : auto;
+    margin-right: auto;
+
+
     font-family: Arial;
     text-align: center;
 }
@@ -18,7 +22,9 @@ body{
 .btn1 {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
     width: 332px;
     height: 63px;
     border-radius: 46px;
@@ -37,6 +43,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
     width: 332px;
     height: 63px;
     border-radius: 46px;
@@ -54,11 +63,11 @@ body{
 .he1{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
     display: flex;
     justify-content: space-around;
-
-    width: 214px;
-    height: 126px;
 
     font-family: 'Spoqa Han Sans Neo';
     font-style: normal;
@@ -77,11 +86,11 @@ body{
 .he2{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
 
-    width: 340px;
-    height: 141px;
 
     font-family: 'Spoqa Han Sans Neo';
     font-style: normal;
@@ -100,6 +109,8 @@ body{
 .he3{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
 
