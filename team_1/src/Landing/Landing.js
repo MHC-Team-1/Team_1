@@ -1,19 +1,24 @@
-//src/Landing/Landing.js
-//import styles from './Landing/Landing.css';
+import './Landing.css';
 
 
-function Landing() {
-    return <div>구스팜!</div>;
+function Home() {
+    return( 
+        <div>
+            <div className="title">
+            구스팜(로고)
+            <div className='sub'>good+farm이다 (슬로건)</div>
+            </div>
+            <div>
+                <div className='text'>여기는 텍스트를 채우는 공간입니다.
+                여기는 텍스트를 채우는 공간입니다.여기는 텍스트를 채우는 공간입니다.</div>
+            </div>
+            <div>
+                <button type="gamebtn">> 게임 시작하기</button>
+                <div className='link'>구스팜 구경가기</div>
+            </div>
+            
+        </div>
+    );
 }
 
-export default Landing;
-
-// const title = document.getElementById("title");
-// console.dir(title);
-
-// title.innerText ="구스팜"
-
-
-
-// var h1 = document.getElementsByTagName('div')
-// h1[0].innerHTML= "구스팜"
+export default Home; 
