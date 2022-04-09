@@ -13,32 +13,33 @@ position: relative;
 width: 411px;
 height: 823px;
 overflow-y: scroll;*/
-
+.icon{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
 .title {
     /* 구스팜(로고) */
 
-    position: absolute;
-    width: auto;
-    height: 450px;
-    margin: 50px;
-    /* 행간 line-height : 100px; */
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
-    /* H1 */
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'calt' off;
 
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 100px;
-    /* identical to box height, or 100% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.02em;
-    font-feature-settings: 'calt' off;
-
-    color: #FFFFFF;
+  color: #ffffff;
 
   }
 
@@ -46,12 +47,10 @@ overflow-y: scroll;*/
     /* good+farm이다 (슬로건) */
 
     position: absolute;
-    width: 260px;
-    margin: auto;
-    height: 0px;
-    margin-top: 10px;
-
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
 
     font-family: 'Spoqa Han Sans Neo';
     font-style: normal;
@@ -68,30 +67,34 @@ overflow-y: scroll;*/
   }
 
   .text{
-    position : absolute;
-    width: auto;
-    height: 100px;
-    margin-top: 450px;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
 
-    /* Body */
+  width: 178px;
+  height: 22px;
 
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    /* or 138% */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: bold;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 
-    text-align: center;
-    letter-spacing: -0.02em;
-    font-feature-settings: 'calt' off;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'calt' off;
 
-    color: #FFFFFF;
+  color: #ffffff;
   }
 
 /*<button type="gamebtn">게임시작</button> */
 
 .gamebtn{
+
   position: relative;  
   margin-left: auto;
   margin-right: auto;
@@ -118,7 +121,7 @@ overflow-y: scroll;*/
     width: 300px;
     height: 10px;
     margin: auto;
-    margin-top: 700px;
+    margin-top: 150px;
 
     /* Link */
 
