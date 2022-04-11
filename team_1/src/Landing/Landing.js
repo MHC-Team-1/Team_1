@@ -1,25 +1,37 @@
 import './Landing.css';
+import { Link } from "react-router-dom";
 
-
-function Home() {
+function Landing() {
     return( 
         <div>
-            <img className="icon" alt="icon" src="img/icon.jpg" />
-            <div className="title">
+        <div className='rec'> </div>
+            
+        <img className="pic" alt="icon" src="img/icon.png" />
+
+            <div className='he1'>
             구스팜(로고)
-            <div className='sub'>good+farm이다 (슬로건)</div>
-            </div>
-            <div>
-                <div className='text'>여기는 텍스트를 채우는 공간입니다.
-                여기는 텍스트를 채우는 공간입니다.여기는 텍스트를 채우는 공간입니다.</div>
-            </div>
-            <div>
-                <button type="gamebtn">> 게임 시작하기</button>
-                <div className='link'>구스팜 구경가기</div>
+          </div>
+
+          <div className='he2'>
+          good+farm이다 (슬로건)
+          </div>
+
+
+            <div className='he3'>
+            여기는 텍스트를 채우는 공간입니다.
+            <br></br>여기는 텍스트를 채우는 공간입니다.
+            <br></br>여기는 텍스트를 채우는 공간입니다.
             </div>
             
-        </div>
+          <div>
+          <Link to="/Game_intro">게임시작</Link>  
+            </div>
+          <button className='btn2' onclick="location.href='../Game_intro/Game_intro'"> > 게임 시작 </button>
+          <div className='link'>구스팜 구경가기</div>
+
+          </div>
+          
     );
 }
 
-export default Home; 
+export default Landing; 
