@@ -1,6 +1,6 @@
 import './Game_intro.css';
 
-function Home() {
+function Game_intro() {
     return( 
         <div>
         <div className='rec'> </div>
@@ -26,4 +26,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Game_intro;
