@@ -1,30 +1,19 @@
-import Landing from './Landing/Landing';
-import {BrowserRouter, Router, Switch} from "react-router-dom";
+import Landing from './Landing/Landing'
+import Game from './Game/Game'
+import Game_intro from './Game_intro/Game_intro'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 function App() {
   return (
-    <BrowserRouter> 
-      <Landing />
-      <Switch>
-        <Router path="/">
-          <div>
-          <Landing />
-          </div>
-        </Router>
-        <Router path="/Landing">
-          <Game_intro />
-          <Game />
-        </Router>
-        <Router path="/Landing/Game_intro">
-          <Game />
-        </Router>
-
-    </Switch>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/Game_intro" element={<Game_intro />} />
+        <Route path="/Game" element={<Game />} />
+      </Routes>
     </BrowserRouter>
-
-  );
+  )
 }
 
-export default App;
-
+export default App
