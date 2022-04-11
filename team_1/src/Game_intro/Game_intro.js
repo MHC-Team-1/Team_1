@@ -1,4 +1,5 @@
 import './Game_intro.css';
+import { Link } from 'react-router-dom'
 
 function Game_intro() {
     return( 
@@ -21,8 +22,10 @@ function Game_intro() {
                 <br/>아래 구스팜 구경하기 버튼을 눌러<br/>구경해보세요!
             </div>
             
-          <button className='btn2' onclick="location.href='../Missoin1/Mission1.html'">네, 시작해볼게요!</button>
-          </div>
+            <div className="btn">
+        <Link to="/Mission"> 네, 시작해볼게요! </Link>
+      </div>
+                </div>
     );
 }
 
