@@ -7,38 +7,50 @@ html, body{
   display: block;
 
   max-width: 500px;
-  background-image: url("https://ibb.co/0DGFrW7");
-  background-repeat: no- repeat;
 
   font-family: Arial;
   text-align: center;
 }
 
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* .Landing{
+  height: 100%;
+  width: 100%;
+  background: src="img/Pattern1.png";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+
 .parent {
   background-image: src="img/Pattern1.png";
-  width: 200px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 
 .TopBG_png1 {
   background-image: src="img/TopBG_png1.png";
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  height: 100%;
   
-  top: 80%;
-  left: 15%;
+  /* top: 80%;
+  left: 15%; */
   position: absolute;
   z-index: 3;
 }
 
 .Leaf {
   background-image: src="img/Leaf.png";
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  height: 100%;
   
-  top: 85%;
-  left: 20%;
+  /* top: 85%;
+  left: 20%; */
   position: absolute;
   z-index: 2;
 }

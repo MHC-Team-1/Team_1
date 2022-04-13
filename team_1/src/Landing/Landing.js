@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Landing() {
   return (
-    <div>
+    <div className='Landing'>
       <div class="parent">
       <div class="TopBG_png1"></div>
       <div class="Leaf"></div>
