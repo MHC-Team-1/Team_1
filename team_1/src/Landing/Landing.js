@@ -18,8 +18,8 @@ function Landing() {
         <br></br>여기는 텍스트를 채우는 공간입니다.
       </div>
 
-      <div className="btn">
-        <Link to="/Game_intro"> 게 임 시 작 </Link>
+      <div>
+        <Link to="/game_intro">게임시작</Link>
       </div>
       {/* <button className="btn2" onclick="location.href='../Game_intro/Game_intro'">
         게임 시작
