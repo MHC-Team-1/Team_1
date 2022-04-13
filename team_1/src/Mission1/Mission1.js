@@ -23,4 +23,3 @@ function Mission1() {
     );
 }
 
-export default Mission1;
