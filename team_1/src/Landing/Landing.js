@@ -10,7 +10,7 @@ function Landing() {
       {/* <div class="child-3"></div> */}
     </div>
 
-      <div className="rec"> </div>
+      <div className="rec"></div>
 
       <img className="Leaf" alt="Leaf" src="img/Leaf.png" />
 

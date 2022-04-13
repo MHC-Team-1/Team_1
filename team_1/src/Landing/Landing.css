@@ -40,6 +40,7 @@ html, body{
   
   /* top: 80%;
   left: 15%; */
+
   position: absolute;
   z-index: 3;
 }
@@ -65,10 +66,6 @@ html, body{
   position: absolute;
   z-index: 1;
 } */
-
-.Leaf{
-  position: relative;
-}
 
 .rec {
   width: 100%;
