@@ -6,11 +6,56 @@ html, body{
 
   display: block;
 
-  max-width: 800px;
-  background: #01a560;
+  max-width: 500px;
+  background-image: url("https://ibb.co/0DGFrW7");
+  background-repeat: no- repeat;
 
   font-family: Arial;
   text-align: center;
+}
+
+.parent {
+  background-image: src="img/Pattern1.png";
+  width: 200px;
+  height: 100px;
+  position: relative;
+}
+
+.TopBG_png1 {
+  background-image: src="img/TopBG_png1.png";
+  width: 50px;
+  height: 50px;
+  
+  top: 80%;
+  left: 15%;
+  position: absolute;
+  z-index: 3;
+}
+
+.Leaf {
+  background-image: src="img/Leaf.png";
+  width: 50px;
+  height: 50px;
+  
+  top: 85%;
+  left: 20%;
+  position: absolute;
+  z-index: 2;
+}
+
+/* .child-3 {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  
+  top: 90%;
+  left: 25%;
+  position: absolute;
+  z-index: 1;
+} */
+
+.Leaf{
+  position: relative;
 }
 
 .rec {
@@ -20,17 +65,6 @@ html, body{
   margin-bottom: 10px;
 
   background: #FFFFFF;
-}
-
-.pic{
-  margin-left : auto;
-  margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 30px;
-
-  display: block;
-  width: 200px;
-  height: 200px;
 }
 
 .btn1 {

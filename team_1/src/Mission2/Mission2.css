@@ -1,0 +1,131 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    max-width: 500px;
+    max-height: 1000px;
+    
+    display: block;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    font-family: Arial;
+    text-align: center;
+    
+}
+
+.topbar2{
+    margin: 1%;
+    width: 98%;
+    max-width: 500px;
+    height: 5%;
+
+    top: 1%;
+    position: absolute;
+
+    vertical-align: middle;
+
+    object-fit: contain;
+
+    background: url("https://i.ibb.co/hCjC7G2/TOPBAR-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    
+}
+
+.brec1 {
+    width: 100%;
+    max-width: 500px;
+    height: 20%;
+    
+    bottom :10%;
+    position: absolute;
+
+    align-items: center;
+  }
+
+.brec2 {
+    width: 100%;
+    max-width: 500px;
+    height: 8%;
+    
+    bottom :2%;
+    position: absolute;
+
+    align-items: center;
+  }
+
+
+.bbtn1 {
+    width: 33.3%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+
+    float: left;
+    border: 0;
+
+    background: url("https://i.ibb.co/1J2xNM0/Group-10.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bbtn2 {
+    width: 33.3%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: block;
+
+    float: left;
+    border: 0;
+ 
+    background: url("https://i.ibb.co/bRfwR4b/Group-9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bbtn3 {
+    width: 33.3%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: block;
+
+    float: left;
+    border: 0;
+
+    background: url("https://i.ibb.co/tcgFx5V/Group-8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.next_btn{
+    width: 20%;
+    height: 100%;
+    margin-right: 8%;
+
+    bottom: 0;
+    display: block;
+    float: right;
+
+    border: 0;
+
+    background: url("https://i.ibb.co/RpJgG3M/NEXTButton-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
