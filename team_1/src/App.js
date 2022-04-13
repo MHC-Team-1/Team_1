@@ -6,7 +6,6 @@ import Mission2 from './Mission2/Mission2'
 import Mission3 from './Mission3/Mission3'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-
 function App() {
   return (
     <BrowserRouter>

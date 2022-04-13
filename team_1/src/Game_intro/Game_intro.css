@@ -8,6 +8,8 @@ html, body{
 
     max-width: 800px;
     background: #fff;
+    background-repeat: no-repeat;
+
 
     font-family: Arial;
     text-align: center;
