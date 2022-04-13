@@ -1,5 +1,5 @@
 import './Game.css';
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 
 
 function Game() {
@@ -16,7 +16,7 @@ function Game() {
             </div>
 
 
-            <img className='pic'/>
+           {/* <img className='pic'/> */}
 
             <div className='he3'>
                 구스팜 게임플레이는 만족스러우셨나요?<br/>구로구에 위치한 스마트팜은 앞으로도<br/>다양한 체험과 함께 여러분을 찾아갑니다.<br/>

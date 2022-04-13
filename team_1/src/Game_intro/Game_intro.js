@@ -6,7 +6,7 @@ function Game_intro() {
         <div>
         <div className='rec'> </div>
             
-        <img className='pic'/>
+        {/* <img className='pic'/> */}
 
             <div className='he1'>
               게임을 시작해볼까요?

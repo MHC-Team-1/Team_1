@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Landing from './Landing/Landing'
-import { BrowserRouter } from 'react-router-dom'
+//import Landing from './Landing/Landing'
+//import { BrowserRouter } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals'
 import App from './App'
 
