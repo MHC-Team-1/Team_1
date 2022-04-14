@@ -8,144 +8,222 @@ html, body{
 
     max-width: 800px;
     background: #fff;
-    background-repeat: no-repeat;
 
 
     font-family: Arial;
     text-align: center;
 }
 
-.rec {
+#root {
+    height: 100%;
     width: 100%;
-    height: 50px;
-
-    margin-bottom: 10px;
-
-    background: #DADADA;
-  }
-
-.pic{
-    margin-left : auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-    display: block;
-    width: 144px;
-    height: 144px;
-    background: url(https://item.kakaocdn.net/do/bf9484270292c7d8dc3e014beabb26a68f324a0b9c48f77dbce3a43bd11ce785);
 }
 
-.btn1 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.Game_intro{
+    height: 100%;
+    width: 100%;
 
-    width: 332px;
-    height: 63px;
-    border-radius: 46px;
-    border:0;
-    outline: 0;
-    background: #DADADA;
-
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;  
-}
-
-.btn2 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    max-width: 500px;
+    max-height: 1000px;
     
-    width: 332px;
-    height: 63px;
-    border-radius: 46px;
-    border:0;
-    outline: 0;
-    background: #5DFFC1;
+    display: block;
 
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;  
+    background: url("https://i.ibb.co/p0WSTjG/BG-dark-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-family: Arial;
+    text-align: center;
+   
 }
 
-.he1{
+.topbar1{
+    margin: 1%;
+    width: 98%;
+    max-width: 500px;
+    height: 5%;
+
+    top: 1%;
+    position: absolute;
+
+    vertical-align: middle;
+
+    object-fit: contain;
+
+    background: url("https://i.ibb.co/gdHTLZD/TOPBAR.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    
+}
+
+.Talk1{
+    display: flex;
+
+    position: absolute;
+    
+    width: 382px;
+    height: 78px;
+    margin-top: 100px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
 
+}
+
+.Talk2{
     display: flex;
-    justify-content: space-around;
+
+    position: absolute;
+    width: 458px;
+    height: 126px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.Talk3{
+    display: flex;
+
+    position: absolute;
+    width: 365px;
+    height: 78px;   
+    margin-top: 350px;
+    margin-bottom: 20px;
+}
+
+.Talk4{
+    display: flex;
+
+    position: absolute;
+    width: 435px;
+    height: 153px;
+    margin-top: 450px;
+    margin-bottom: 20px;
+}
+
+.Talk5{
+    display: flex;
+
+    position: absolute;
+    width: 339px;
+    height: 78px;
+    margin-top: 600px;
+    margin-bottom: 20px;
+}
+
+.Talk6{
+    display: flex;
+
+    position: absolute;
+    width: 196px;
+    height: 74px;
+    margin-top: 700px;
+    margin-bottom: 20px;
+}
+
+.comment{
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 9%;
 
     font-family: 'Spoqa Han Sans Neo';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 42px;
-
-    align-items: center;
+    font-size: 20px;
+    line-height: 25px;
     text-align: center;
-    letter-spacing: -0.02em;
-    font-feature-settings: 'calt' off;
-
+    letter-spacing: -0.05em;
+    
     color: #000000;
 }
 
-.he2{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-around;
-
+.rec1 {
     width: 100%;
-    height: 22px;
+    max-width: 500px;
+    height: 25%;
+    
+    bottom :30%;
+    position: absolute;
+  }
+  .rec2 {
+    width: 100%;
+    max-width: 500px;
+    height: 25%;
+    
+    bottom: 3%;
+    position: absolute;
+  }
 
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
+.abtn1 {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.02em;
-    font-feature-settings: 'calt' off;
-
-    color: #000000;
-}
-
-
-.he3{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
     display: flex;
-    justify-content: space-around;
-
-
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-
     align-items: center;
-    text-align: center;
-    letter-spacing: -0.02em;
-    font-feature-settings: 'calt' off;
 
-    color: #5F5F5F;
+    float: left;
+    border: 0;
+
+    background: url("https://i.ibb.co/Jt05PRf/Group-7.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+.abtn2 {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: block;
+
+    float: left;
+    border: 0;
+ 
+    background: url("https://i.ibb.co/dQQ6fhj/Group-6.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.abtn3 {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: block;
+
+    float: left;
+    border: 0;
+
+    background: url("https://i.ibb.co/Bsm99Zj/Group-4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.abtn4 {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: block;
+
+    float: left;
+    border: 0;
+
+    background: url("https://i.ibb.co/GkvNBcL/Group-5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
