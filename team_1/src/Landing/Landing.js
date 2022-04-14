@@ -10,14 +10,14 @@ function Landing() {
       {/* <div class="child-3"></div> */}
     </div>
 
-      <div className="rec"></div>
-
       <img className="Leaf" alt="Leaf" src="img/Leaf.png" />
 
-      <div className="he2">무농약 무공해 구로 스마트팜에서<br></br>채소를 키우며
+      <div className="he1">무농약 무공해 구로 스마트팜에서<br></br>채소를 키우며
  기부도하고<br></br>유럽채소 받자!</div>
+<div>
     <div>
         <Link to="/Game_intro"><img className="btn1" alt="YBUTTON1" src="img/YBUTTON1.png"/></Link>
+      </div>
       </div>
       <Link to="/Game_intro"><img className="Frame1" alt="Frame1" src="img/Frame1.png"/></Link>
       <div className="he3">
