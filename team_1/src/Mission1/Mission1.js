@@ -1,7 +1,12 @@
 import './Mission1.css';
-import { Link , Route, BrowserRouter as Router } from "react-router-dom";
+import { Link, Route, BrowserRouter as Router } from "react-router-dom";
 
 function Mission1() {
+    
+    const btn_click = function() {
+        count ++;
+        console.log(count);
+    }
    
     return( 
             <div className='mission1'>
@@ -13,14 +18,20 @@ function Mission1() {
                     <Link to="/Mission2">
                         <button className="abtn1"/>
                     </Link>
-                    <button className="abtn2"/>
+                    <Link to="/Mission2">
+                        <button className="abtn2"/>
+                    </Link>
+                    
                 </div>
                 <div className="rec2">
-                    <button className="abtn3"/>
-                    <button className="abtn4"/>
+                    <Link to="/Mission2">
+                        <button className="abtn3" onClick={btn_click()}/>
+                    </Link>
+                    <Link to="/Mission2">
+                        <button className="abtn4"/>
+                    </Link>
                 </div>
         </div>
     );
 }
-
-export default Mission1
+export default Mission1;
