@@ -28,7 +28,7 @@ html, body{
     
     display: block;
 
-    background: url("https://i.ibb.co/p0WSTjG/BG-dark-1.png");
+    background: url("https://i.ibb.co/P5CNNHk/introbg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -36,27 +36,6 @@ html, body{
     font-family: Arial;
     text-align: center;
    
-}
-
-.topbar1{
-    margin: 1%;
-    width: 98%;
-    max-width: 500px;
-    height: 5%;
-
-    top: 1%;
-    position: absolute;
-
-    vertical-align: middle;
-
-    object-fit: contain;
-
-    background: url("https://i.ibb.co/gdHTLZD/TOPBAR.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    
 }
 
 .Talk1{
@@ -123,107 +102,21 @@ html, body{
     margin-bottom: 20px;
 }
 
-.comment{
-    position: absolute;
-    width: 100%;
-    max-width: 500px;
-    height: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 9%;
-
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: -0.05em;
-    
-    color: #000000;
-}
-
-.rec1 {
-    width: 100%;
-    max-width: 500px;
-    height: 25%;
-    
-    bottom :30%;
-    position: absolute;
-  }
-  .rec2 {
-    width: 100%;
-    max-width: 500px;
-    height: 25%;
-    
-    bottom: 3%;
-    position: absolute;
-  }
-
-.abtn1 {
+.btn1 {
     width: 50%;
     height: 100%;
-    margin: 0;
-    padding: 0;
+    margin: auto;
 
     display: flex;
     align-items: center;
 
-    float: left;
+    float: row;
     border: 0;
 
-    background: url("https://i.ibb.co/Jt05PRf/Group-7.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-.abtn2 {
-    width: 50%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
 
-    display: block;
-
-    float: left;
-    border: 0;
- 
-    background: url("https://i.ibb.co/dQQ6fhj/Group-6.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.abtn3 {
-    width: 50%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-    display: block;
-
-    float: left;
-    border: 0;
-
-    background: url("https://i.ibb.co/Bsm99Zj/Group-4.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.abtn4 {
-    width: 50%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-    display: block;
-
-    float: left;
-    border: 0;
-
-    background: url("https://i.ibb.co/GkvNBcL/Group-5.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 

@@ -17,24 +17,16 @@ html, body{
   width: 100%;
 }
 
-/* .Landing{
-  height: 100%;
-  width: 100%;
-  background: src="img/Pattern1.png";
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-} */
-
+/*
 .parent {
-  background-image: src="img/Pattern1.png";
+  background: src="img/Pattern1.png";
   width: 100%;
   height: 100%;
   position: relative;
 }
 
 .TopBG_png1 {
-  background-image: src="img/TopBG_png1.png";
+  background: src="img/TopBG_png1.png";
   width: 100%;
   height: 100%;
 
@@ -42,7 +34,7 @@ html, body{
   z-index: 3;
 }
 
-/* .Leaf {
+ .Leaf {
   background-image: src="img/Leaf.png";
   width: 100%;
   height: 100%;
@@ -62,6 +54,24 @@ html, body{
   z-index: 1;
 } */
 
+.Landing{
+
+  width: 500px;
+  height: 1413px;;
+  background: url("https://i.ibb.co/ydqZghb/Landingbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.TopBG_png1 {
+  background: src="img/TopBG_png1.png";
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+
 .rec {
   width: 100%;
   height: 50px;
@@ -74,30 +84,7 @@ html, body{
 .he1{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 30px;
-
-  display: flex;
-  justify-content: space-around;
-
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 42px;
-
-  align-items: center;
-  text-align: center;
-  letter-spacing: -0.02em;
-  font-feature-settings: 'calt' off;
-
-  color: #000000;
-}
-
-.he2{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 10px;
   display: flex;
   justify-content: space-around;
@@ -117,30 +104,6 @@ html, body{
   font-feature-settings: 'calt' off;
 
   color: #000000;
-}
-
-
-.he3{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-around;
-
-
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-
-  align-items: center;
-  text-align: center;
-  letter-spacing: -0.02em;
-  font-feature-settings: 'calt' off;
-
-  color: #393939;
 }
 
 .btn1 {

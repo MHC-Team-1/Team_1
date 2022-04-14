@@ -1,0 +1,40 @@
+
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    display: block;
+
+    max-width: 800px;
+    background: #fff;
+
+
+    font-family: Arial;
+    text-align: center;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.mission1{
+    height: 100%;
+    width: 100%;
+
+    max-width: 500px;
+    max-height: 1000px;
+    
+    display: block;
+
+    background: url("https://i.ibb.co/pbbDHR7/loadingbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-family: Arial;
+    text-align: center;
+   
+}
