@@ -1,0 +1,79 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    max-width: 500px;
+    max-height: 1000px;
+    
+    display: block;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    font-family: Arial;
+    text-align: center;
+    
+}
+
+.mission2{
+    height: 100%;
+    width: 100%;
+
+    max-width: 500px;
+    max-height: 1000px;
+    
+    display: block;
+
+    background: url("https://i.ibb.co/fkTGM6G/Group-23.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-family: Arial;
+    text-align: center;
+   
+}
+
+.topbar2{
+    margin: 1%;
+    width: 98%;
+    max-width: 500px;
+    height: 5%;
+
+    top: 1%;
+    position: absolute;
+
+    vertical-align: middle;
+
+    object-fit: contain;
+
+    background: url("https://i.ibb.co/hCjC7G2/TOPBAR-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    
+}
+
+.result2_light {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 0%;
+    position:relative;
+    
+
+    border: 0;
+
+    background: url("https://i.ibb.co/gt17H1W/Group-26.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
