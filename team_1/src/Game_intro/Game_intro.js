@@ -1,32 +1,22 @@
 import './Game_intro.css';
-import { Link } from 'react-router-dom'
+import { Link , Route, BrowserRouter as Router } from "react-router-dom";
 
 function Game_intro() {
+   
     return( 
-        <div>
-        <div className='rec'> </div>
-            
-        {/* <img className='pic'/> */}
-
-            <div className='he1'>
-              게임을 시작해볼까요?
-          </div>
-
-          <div className='he2'>
-              게임방법
-          </div>
-
-
-            <div className='he3'>
-                구스팜 게임플레이는 만족스러우셨나요?<br/>구로구에 위치한 스마트팜은 앞으로도<br/>다양한 체험과 함께 여러분을 찾아갑니다.
-                <br/>아래 구스팜 구경하기 버튼을 눌러<br/>구경해보세요!
+            <div className='Game_intro'>
+                <div className="topbar1"/>
+                <div class="parent">
+                <img className="Talk1" alt="Talk1" src="img/Talk1.png" />
+                <img className="Talk2" alt="Talk2" src="img/Talk2.png" />
+                <img className="Talk3" alt="Talk3" src="img/Talk3.png" />
+                <img className="Talk4" alt="Talk4" src="img/Talk4.png" />
+                <img className="Talk5" alt="Talk5" src="img/Talk5.png" />
+                <img className="Talk6" alt="Talk6" src="img/Talk6.png" />
             </div>
-            
-            <div className="btn">
-        <Link to="/Mission"> 네, 시작해볼게요! </Link>
-      </div>
-                </div>
+                
+        </div>
     );
 }
 
-export default Game_intro;
+export default Game_intro
