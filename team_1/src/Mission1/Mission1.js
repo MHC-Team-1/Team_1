@@ -2,11 +2,6 @@ import './Mission1.css';
 import { Link, Route, BrowserRouter as Router } from "react-router-dom";
 
 function Mission1() {
-    
-    const btn_click = function() {
-        count ++;
-        console.log(count);
-    }
    
     return( 
             <div className='mission1'>
@@ -25,7 +20,7 @@ function Mission1() {
                 </div>
                 <div className="rec2">
                     <Link to="/Mission2">
-                        <button className="abtn3" onClick={btn_click()}/>
+                        <button className="abtn3"/>
                     </Link>
                     <Link to="/Mission2">
                         <button className="abtn4"/>
