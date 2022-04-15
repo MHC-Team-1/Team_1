@@ -1,6 +1,25 @@
-body{
+html, body{
     margin: 0 auto;
     padding: 0;
+    height: 100%;
+    width: 100%;
+
+    display: block;
+
+    max-width: 800px;
+    background: #fff;
+
+
+    font-family: Arial;
+    text-align: center;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.mission2{
     height: 100%;
     width: 100%;
 
@@ -9,13 +28,14 @@ body{
     
     display: block;
 
+    background: url("https://i.ibb.co/p0WSTjG/BG-dark-1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   
+
     font-family: Arial;
     text-align: center;
-    
+   
 }
 
 .mission2{

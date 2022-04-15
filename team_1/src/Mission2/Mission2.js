@@ -1,5 +1,7 @@
 import './Mission2.css';
 import { Link } from "react-router-dom";
+import * as React from "react";
+
 
 
 function Mission2() {
@@ -17,15 +19,15 @@ function Mission2() {
           if (currentClick !== null) {
             let current = document.getElementById(currentClick);
             console.log(current);
-            if(current.id == "bbtn1"){
+            if(current.id === "bbtn1"){
                 current.style = "background : URL(https://i.ibb.co/GP5n2nv/Group-10-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
             }
            
-           if(current.id == "bbtn2"){
+           if(current.id === "bbtn2"){
             current.style = "background : URL(https://i.ibb.co/GJH2Jxn/Group-9-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
             }
 
-            if(current.id == "bbtn3"){
+            if(current.id === "bbtn3"){
                  current.style = "background : URL(https://i.ibb.co/b30rVCH/Group-8-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
             }
             setPrevClick(currentClick);
@@ -33,15 +35,15 @@ function Mission2() {
     
           if (prevClick !== null) {
             let prev = document.getElementById(prevClick);
-            if(prev.id == "bbtn1"){
+            if(prev.id === "bbtn1"){
                 prev.style = "background : URL(https://i.ibb.co/1J2xNM0/Group-10.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
             }
             
-            if(prev.id == "bbtn2"){
+            if(prev.id === "bbtn2"){
                 prev.style = "background : URL(https://i.ibb.co/bRfwR4b/Group-9.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
             }
 
-            if(prev.id == "bbtn3"){
+            if(prev.id === "bbtn3"){
                 prev.style = "background : URL(https://i.ibb.co/tcgFx5V/Group-8.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
             }
 
