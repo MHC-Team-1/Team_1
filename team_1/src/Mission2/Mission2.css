@@ -38,6 +38,25 @@ html, body{
    
 }
 
+.mission2{
+    height: 100%;
+    width: 100%;
+
+    max-width: 500px;
+    max-height: 1000px;
+    
+    display: block;
+
+    background: url("https://i.ibb.co/fkTGM6G/Group-23.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-family: Arial;
+    text-align: center;
+   
+}
+
 .topbar2{
     margin: 1%;
     width: 98%;
@@ -99,6 +118,7 @@ html, body{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .bbtn2 {
     width: 33.3%;
     height: 100%;
