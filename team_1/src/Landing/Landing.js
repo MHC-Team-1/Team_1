@@ -5,7 +5,7 @@ function Landing() {
   return (
     <div className='Landing'>
       <div class="parent">
-      <div class="TopBG_png1"></div>
+      <div class="TopBG"></div>
       <div class="Leaf"></div>
       {/* <div class="child-3"></div> */}
     </div>
