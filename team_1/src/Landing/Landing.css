@@ -64,7 +64,7 @@ html, body{
   background-size: cover;
 }
 
-.TopBG_png1 {
+.TopBG {
   background: src="img/TopBG_png1.png";
   width: 100%;
   height: 100%;
