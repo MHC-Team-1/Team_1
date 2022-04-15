@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Mission2() {
 
     return( 
-        <div className='mission2'>
+        <div className='mission1'>
             <div className="topbar2"/>
             <div className="comment">
                 원하는 색을 선택하고<td/>버튼을 누르세요. (다중 선택 가능)
