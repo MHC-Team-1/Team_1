@@ -1,10 +1,10 @@
-import './Game_intro.css';
-import { Link , Route, BrowserRouter as Router } from "react-router-dom";
+import './GameIntro.css';
+import { Link } from "react-router-dom";
 
-function Game_intro() {
+function GameIntro() {
    
     return( 
-            <div className='Game_intro'>
+            <div className='GameIntro'>
                 <div class="parent">
                 <img className="Talk1" alt="Talk1" src="img/Talk1.png" />
                 <img className="Talk2" alt="Talk2" src="img/Talk2.png" />
@@ -22,4 +22,4 @@ function Game_intro() {
     );
 }
 
-export default Game_intro
+export default GameIntro
