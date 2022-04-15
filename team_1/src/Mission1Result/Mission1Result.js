@@ -1,7 +1,7 @@
-import './Mission1_result.css';
-import { Link, Route, BrowserRouter as Router } from "react-router-dom";
+import './Mission1Result.css';
+import { Link } from "react-router-dom";
 
-function Mission1_result() {
+function Mission1Result() {
    
     return( 
         <Link to="/Mission2">
@@ -12,4 +12,4 @@ function Mission1_result() {
         </Link>
     );
 }
-export default Mission1_result;
+export default Mission1Result;

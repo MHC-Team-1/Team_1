@@ -1,5 +1,7 @@
 import './Mission2.css';
 import { Link } from "react-router-dom";
+import * as React from "react";
+
 
 
 function Mission2() {
