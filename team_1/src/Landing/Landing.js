@@ -16,10 +16,10 @@ function Landing() {
  기부도하고<br></br>유럽채소 받자!</div>
 <div>
     <div>
-        <Link to="/Game_intro"><img className="btn1" alt="YBUTTON1" src="img/YBUTTON1.png"/></Link>
+        <Link to="/GameIntro"><img className="btn1" alt="YBUTTON1" src="img/YBUTTON1.png"/></Link>
       </div>
       </div>
-      <Link to="/Game_intro"><img className="Frame1" alt="Frame1" src="img/Frame1.png"/></Link>
+      <Link to="/GameIntro"><img className="Frame1" alt="Frame1" src="img/Frame1.png"/></Link>
       <div className="he3">
       참여기간 : 2022년 4월 20일 ~ 5월 00일 ( 00일간)<br></br>
       당첨발표 : 2022년 5월 00일 (개별 당첨자연락)<br></br>
