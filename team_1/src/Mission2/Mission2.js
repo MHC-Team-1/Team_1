@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 function Mission2() {
-    const [currentClick, setCurrentClick] = React.useState(null);
-    const [btnR1, setBtnR1] = React.useState(0);
+   /* const [currentClick, setCurrentClick] = React.useState(null);
+    // const [btnR1, setBtnR1] = React.useState(0);
     const [btnR2, setBtnR2] = React.useState(0);
     const [btnR3, setBtnR3] = React.useState(0);
     let test1 = 0;
@@ -26,9 +26,9 @@ function Mission2() {
         else if(e===3){
             setBtnR3(1);
         }
-    };
+    };*/
 
-    React.useEffect(
+   /* React.useEffect(
         (e) => {
             let current = document.getElementById(currentClick);
             if (currentClick !== null) {
@@ -57,7 +57,7 @@ function Mission2() {
                 console.log(test1);                
             }
 
-            /*if(btnR2 !== 0){
+            if(btnR2 !== 0){
                 let re2 = document.getElementById(btnR2);
                 if(re2.id === "bbtn2"){
                     re2.style = "background : URL(https://i.ibb.co/bRfwR4b/Group-9.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
@@ -68,10 +68,10 @@ function Mission2() {
                 if(re3.id === "bbtn3"){
                     re3.style = "background : URL(https://i.ibb.co/tcgFx5V/Group-8.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
                 }
-            }*/
+            }
             
         },
-    );
+    );*/
 
     return( 
         <div className='mission2'>
@@ -80,11 +80,11 @@ function Mission2() {
                 원하는 색을 선택하고<td/>버튼을 누르세요. (다중 선택 가능)
             </div>
             
-            <div className="brec1">
+            {/* <div className="brec1">
                 <button id="bbtn1" className="bbtn1" onClick={GetClick}/>
                 <button id="bbtn2" className="bbtn2" onClick={GetClick}/>
                 <button id="bbtn3" className="bbtn3" onClick={GetClick}/>
-            </div>
+            </div> */}
             <div className="brec2">
                 <Link to="/Mission2Result">
                     <button className="next_btn"/>

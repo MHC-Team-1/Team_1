@@ -1,6 +1,6 @@
 import './Mission1.css';
 import { Link } from "react-router-dom";
-import Mission3Result from '../Mission3Result/Mission3Result';
+// import Mission3Result from '../Mission3Result/Mission3Result';
 
 function Mission1() {
     return( 
