@@ -53,8 +53,6 @@ function Mission2() {
         [currentClick]
       );
 
-
-
     return( 
         <div className='mission2'>
             <div className="topbar2"/>
