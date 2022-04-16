@@ -1,59 +1,77 @@
 import './Mission2.css';
 import { Link } from "react-router-dom";
-import * as React from "react";
+import React from "react";
 
 function Mission2() {
     const [currentClick, setCurrentClick] = React.useState(null);
-    var btnR1 = 0, btnR2 = 0, btnR3 = 0;
+    const [btnR1, setBtnR1] = React.useState(0);
+    const [btnR2, setBtnR2] = React.useState(0);
+    const [btnR3, setBtnR3] = React.useState(0);
+    let test1 = 0;
 
     const GetClick = (e) => {
         setCurrentClick(e.target.id);
         console.log(e.target.id);
     };
 
+    const setBtn = (e) => {
+        if(e===1){
+            setBtnR1(1);
+            test1 = 1
+            console.log(test1+"hi");
+        }
+        else if(e===2){
+            setBtnR2(1);
+        }
+        else if(e===3){
+            setBtnR3(1);
+        }
+    };
+
     React.useEffect(
         (e) => {
-          if (currentClick !== null) {
             let current = document.getElementById(currentClick);
-            console.log(current);
-            if(current.id === "bbtn1"){
-                if(btnR1 === 0){
+            if (currentClick !== null) {
+                
+                console.log(current);
+                
+                if(current.id === "bbtn1" && test1 === 0){
                     current.style = "background : URL(https://i.ibb.co/GP5n2nv/Group-10-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                    console.log(btnR1);
-                    btnR1 = 1;
-                    console.log(btnR1);
-                }
-                else if(btnR1 === 1){
-                    current.style = "background : URL(https://i.ibb.co/1J2xNM0/Group-10.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                    btnR1 = 0;
-                }
-            }
-           else if(current.id === "bbtn2"){
-               if(btnR2 === 0){
-                   current.style = "background : URL(https://i.ibb.co/GJH2Jxn/Group-9-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                    btnR2 = 1;
-                    console.log(btnR2);
-                }
-               else if(btnR2 === 1){
-                    current.style = "background : URL(https://i.ibb.co/bRfwR4b/Group-9.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                    btnR2 = 0;
+                    setBtn(1);
+                    console.log(test1);
                 }
             
-            }
-            else if(current.id === "bbtn3"){
-                if(btnR3 === 0){
-                    current.style = "background : URL(https://i.ibb.co/b30rVCH/Group-8-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                    btnR3 = 1;
-                    console.log(btnR3);
+                if(current.id === "bbtn2"){
+                   if(btnR2 === 0){
+                        current.style = "background : URL(https://i.ibb.co/GJH2Jxn/Group-9-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";        
+                    }
+                    setBtnR2(1);
                 }
-                else if(btnR3 === 1){
-                    current.style = "background : URL(https://i.ibb.co/tcgFx5V/Group-8.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                    btnR3 = 0;
+
+                if(current.id === "bbtn3"){
+                    if(btnR3 === 0){
+                        current.style = "background : URL(https://i.ibb.co/b30rVCH/Group-8-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+                    }
+                    setBtnR3(1);
                 }
+                console.log(test1);                
             }
-        }
+
+            /*if(btnR2 !== 0){
+                let re2 = document.getElementById(btnR2);
+                if(re2.id === "bbtn2"){
+                    re2.style = "background : URL(https://i.ibb.co/bRfwR4b/Group-9.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+                }    
+            }
+            if(btnR3 !== 0){
+                let re3 = document.getElementById(btnR3);
+                if(re3.id === "bbtn3"){
+                    re3.style = "background : URL(https://i.ibb.co/tcgFx5V/Group-8.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+                }
+            }*/
+            
         },
-      );
+    );
 
     return( 
         <div className='mission2'>

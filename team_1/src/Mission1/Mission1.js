@@ -1,8 +1,8 @@
 import './Mission1.css';
 import { Link } from "react-router-dom";
+import Mission3Result from '../Mission3Result/Mission3Result';
 
 function Mission1() {
-   
     return( 
             <div className='mission1'>
                 <div className="topbar1"/>
@@ -20,7 +20,7 @@ function Mission1() {
                 </div>
                 <div className="rec2">
                     <Link to="/Mission1Result">
-                        <button className="abtn3"/>
+                        <button className="abtn3" result1 = "1"/>
                     </Link>
                     <Link to="/Mission1Result">
                         <button className="abtn4"/>
