@@ -34,8 +34,7 @@ function Landing() {
         경품은 사정에 따라 일부 변경될 수 있습니다.
       </div>
       
-      <div className="link">구스팜 구경가기</div>
-    </div>
+  </div>
   )
 }
 

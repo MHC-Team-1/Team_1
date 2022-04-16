@@ -17,36 +17,36 @@ function Mission2() {
             let current = document.getElementById(currentClick);
             console.log(current);
             if(current.id === "bbtn1"){
-                if(btnR1 == 0){
+                if(btnR1 === 0){
                     current.style = "background : URL(https://i.ibb.co/GP5n2nv/Group-10-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
                     console.log(btnR1);
                     btnR1 = 1;
                     console.log(btnR1);
                 }
-                else if(btnR1 == 1){
+                else if(btnR1 === 1){
                     current.style = "background : URL(https://i.ibb.co/1J2xNM0/Group-10.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
                     btnR1 = 0;
                 }
             }
            else if(current.id === "bbtn2"){
-               if(btnR2 == 0){
+               if(btnR2 === 0){
                    current.style = "background : URL(https://i.ibb.co/GJH2Jxn/Group-9-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
                     btnR2 = 1;
                     console.log(btnR2);
                 }
-               else if(btnR2 == 1){
+               else if(btnR2 === 1){
                     current.style = "background : URL(https://i.ibb.co/bRfwR4b/Group-9.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
                     btnR2 = 0;
                 }
             
             }
             else if(current.id === "bbtn3"){
-                if(btnR3 == 0){
+                if(btnR3 === 0){
                     current.style = "background : URL(https://i.ibb.co/b30rVCH/Group-8-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
                     btnR3 = 1;
                     console.log(btnR3);
                 }
-                else if(btnR3 == 1){
+                else if(btnR3 === 1){
                     current.style = "background : URL(https://i.ibb.co/tcgFx5V/Group-8.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
                     btnR3 = 0;
                 }
