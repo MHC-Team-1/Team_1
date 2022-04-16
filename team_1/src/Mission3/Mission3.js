@@ -1,4 +1,6 @@
 import './Mission3.css';
+import { Link } from "react-router-dom";
+
 
 function Mission3() {
    
@@ -14,7 +16,9 @@ function Mission3() {
                 <button className="cbtn2"/>
                 <button className="cbtn3"/>
             </div>
-           
+
+            <Link to="/Loading"><img className="Tembtn" alt="Tembtn" src="img/Tembtn.png"/></Link>
+
         </div>
 
     );
