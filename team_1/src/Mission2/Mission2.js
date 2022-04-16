@@ -2,12 +2,9 @@ import './Mission2.css';
 import { Link } from "react-router-dom";
 import * as React from "react";
 
-
-
 function Mission2() {
-
     const [currentClick, setCurrentClick] = React.useState(null);
-    const [prevClick, setPrevClick] = React.useState(null);
+    var btnR1 = 0, btnR2 = 0, btnR3 = 0;
 
     const GetClick = (e) => {
         setCurrentClick(e.target.id);
@@ -20,40 +17,43 @@ function Mission2() {
             let current = document.getElementById(currentClick);
             console.log(current);
             if(current.id === "bbtn1"){
-                current.style = "background : URL(https://i.ibb.co/GP5n2nv/Group-10-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+                if(btnR1 == 0){
+                    current.style = "background : URL(https://i.ibb.co/GP5n2nv/Group-10-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+                    console.log(btnR1);
+                    btnR1 = 1;
+                    console.log(btnR1);
+                }
+                else if(btnR1 == 1){
+                    current.style = "background : URL(https://i.ibb.co/1J2xNM0/Group-10.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+                    btnR1 = 0;
+                }
             }
-           
-           if(current.id === "bbtn2"){
-            current.style = "background : URL(https://i.ibb.co/GJH2Jxn/Group-9-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+           else if(current.id === "bbtn2"){
+               if(btnR2 == 0){
+                   current.style = "background : URL(https://i.ibb.co/GJH2Jxn/Group-9-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+                    btnR2 = 1;
+                    console.log(btnR2);
+                }
+               else if(btnR2 == 1){
+                    current.style = "background : URL(https://i.ibb.co/bRfwR4b/Group-9.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+                    btnR2 = 0;
+                }
+            
             }
-
-            if(current.id === "bbtn3"){
-                 current.style = "background : URL(https://i.ibb.co/b30rVCH/Group-8-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+            else if(current.id === "bbtn3"){
+                if(btnR3 == 0){
+                    current.style = "background : URL(https://i.ibb.co/b30rVCH/Group-8-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+                    btnR3 = 1;
+                    console.log(btnR3);
+                }
+                else if(btnR3 == 1){
+                    current.style = "background : URL(https://i.ibb.co/tcgFx5V/Group-8.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
+                    btnR3 = 0;
+                }
             }
-            setPrevClick(currentClick);
         }
-    
-          if (prevClick !== null) {
-            let prev = document.getElementById(prevClick);
-            if(prev.id === "bbtn1"){
-                prev.style = "background : URL(https://i.ibb.co/1J2xNM0/Group-10.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-            }
-            
-            if(prev.id === "bbtn2"){
-                prev.style = "background : URL(https://i.ibb.co/bRfwR4b/Group-9.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-            }
-
-            if(prev.id === "bbtn3"){
-                prev.style = "background : URL(https://i.ibb.co/tcgFx5V/Group-8.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-            }
-
-            
-          }
         },
-        [currentClick]
       );
-
-
 
     return( 
         <div className='mission2'>
@@ -67,13 +67,11 @@ function Mission2() {
                 <button id="bbtn2" className="bbtn2" onClick={GetClick}/>
                 <button id="bbtn3" className="bbtn3" onClick={GetClick}/>
             </div>
-            
             <div className="brec2">
-                <Link to="/Mission2_result">
+                <Link to="/Mission2Result">
                     <button className="next_btn"/>
                 </Link>
             </div>
-           
         </div>
 
     );

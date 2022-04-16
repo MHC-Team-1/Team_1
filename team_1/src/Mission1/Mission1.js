@@ -10,19 +10,19 @@ function Mission1() {
                     4개 중에 뭘 심어야 좋을까?
                 </div>
                 <div className="rec1">
-                    <Link to="/Mission1_result">
+                    <Link to="/Mission1Result">
                         <button className="abtn1"/>
                     </Link>
-                    <Link to="/Mission1_result">
+                    <Link to="/Mission1Result">
                         <button className="abtn2"/>
                     </Link>
                     
                 </div>
                 <div className="rec2">
-                    <Link to="/Mission1_result">
+                    <Link to="/Mission1Result">
                         <button className="abtn3"/>
                     </Link>
-                    <Link to="/Mission1_result">
+                    <Link to="/Mission1Result">
                         <button className="abtn4"/>
                     </Link>
                 </div>
