@@ -29,11 +29,12 @@ html, body{
     
     display: block;
 
-    background: url("https://i.ibb.co/p0WSTjG/BG-dark-1.png");
+    /*background: url("https://i.ibb.co/p0WSTjG/BG-dark-1.png");*/
+    background: url("https://storage.googleapis.com/figmotion-renderer/videos/14%3A58%3A97eea629-2404-42ef-b6da-50af25192f57-0a08b0dc-c680-4e0e-92d6-c2fb19d8d64c.gif?GoogleAccessId=cloud-run-frames-handler%40figmotion.iam.gserviceaccount.com&Expires=1650213138&Signature=a082NkK5f74AGVwrEtjeR4FOjMWwKGZZ72kg11qAcIWjUhxsu3wHbz63vOuA2LIVX2dNNBb3NZgyO9zY%2BoDVYmMtAjDh25AZTDLJ9vYpvo%2B2MVSOG%2FATBxSpBM0bv7xIgb5yqwgdTGxZA4k1ZVjLLW8HfWBspdr8ebdSj8vWacIO9tyx2O%2BzotzcvoBtqENzCMmvWPiBFaTTA0EC752ibtTurn7%2FWyCBglt%2FReiGa1BFnvjuWEBo4NhocsjNzr%2F6Hncv%2B%2BalzXrr%2BKt%2FHyPPFHe7lLVRJSklxacbv78qV0qPyotTuIFEEjhWcTygygHiij70%2BMKCH%2F9HYv%2Bwkt8ZZw%3D%3D"); 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-
+    background-size: 100% 100%;
+    
     font-family: Arial;
     text-align: center;
    

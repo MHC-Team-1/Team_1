@@ -1,15 +1,16 @@
 import './Mission3Result.css';
+import { Link } from "react-router-dom";
 import React from 'react';
 
 function Mission3Result(props) {
     return( 
-        <div className='mission1'>
-            <div className="topbar3"/>  
-            
-            <p> 전달 : {props.result1}</p>
-        </div>
-
+        <Link to="/Loading">
+            <div className='mission3'>
+                <div className="result3y"/>
+            </div>
+        </Link>
+    
     );
-    }
+}
 
 export default Mission3Result;

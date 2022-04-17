@@ -18,6 +18,25 @@ body{
     
 }
 
+.mission3{
+    height: 100%;
+    width: 100%;
+
+    max-width: 500px;
+    max-height: 1000px;
+    
+    display: block;
+
+    background: url("https://i.ibb.co/CKk1Kz1/back3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    font-family: Arial;
+    text-align: center;
+   
+}
+
 .topbar3{
     margin: 1%;
     width: 98%;
@@ -61,54 +80,70 @@ body{
     align-items: center;
   }
 
+  .result3y {
+    width: 70%;
+    max-width: 500px;
+    height: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    bottom: 3%;
+    position:absolute;
+    
+    border: 0;
 
-.cbtn1 {
-    width: 33.3%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    background: url("https://i.ibb.co/qRqdHzm/Group-27.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.result3b {
+  width: 70%;
+  max-width: 500px;
+  height: 80%;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+  bottom: 3%;
+  position:absolute;
+  
+  border: 0;
+
+  background: url("https://i.ibb.co/g7JxZ3G/Group-29.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.result3g {
+  width: 70%;
+  max-width: 500px;
+  height: 80%;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+  bottom: 3%;
+  position:absolute;
+  
+  border: 0;
+
+  background: url("https://i.ibb.co/99nkmtZ/Group-28.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Tembtn2 {
     display: flex;
-    align-items: center;
+    position:relative;
 
-    float: left;
-    border: 0;
-
-    background: url("https://i.ibb.co/qJR8bqt/Group-10-2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.cbtn2 {
-    width: 33.3%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-    display: block;
-
-    float: left;
-    border: 0;
- 
-    background: url("https://i.ibb.co/BTvnM3K/Group-9-2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.cbtn3 {
-    width: 33.3%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-    display: block;
-
-    float: left;
-    border: 0;
-
-    background: url("https://i.ibb.co/f8PLqvs/Group-8-2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
- 
+    max-width: 500px;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 90%;
+    
+  }

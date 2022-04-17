@@ -17,6 +17,25 @@ body{
     text-align: center;
     
 }
+.mission3{
+    height: 100%;
+    width: 100%;
+
+    max-width: 500px;
+    max-height: 1000px;
+    
+    display: block;
+
+    background: url("https://i.ibb.co/CKk1Kz1/back3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    font-family: Arial;
+    text-align: center;
+   
+}
+
 
 .topbar3{
     margin: 1%;
@@ -112,16 +131,4 @@ body{
     background-position: center;
 } 
 
-.Tembtn2 {
-    display: flex;
-    position:relative;
 
-    max-width: 500px;
-    width: 60%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    
-    top: 90%;
-    bottom: 50%;
-  }

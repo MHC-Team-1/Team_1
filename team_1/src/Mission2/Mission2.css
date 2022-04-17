@@ -9,7 +9,6 @@ html, body{
     max-width: 800px;
     background: #fff;
 
-
     font-family: Arial;
     text-align: center;
 }
@@ -28,55 +27,16 @@ html, body{
     
     display: block;
 
-    background: url("https://i.ibb.co/p0WSTjG/BG-dark-1.png");
+    background: url("https://i.ibb.co/bFTrYxt/back2.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
 
     font-family: Arial;
     text-align: center;
    
 }
 
-.mission2{
-    height: 100%;
-    width: 100%;
-
-    max-width: 500px;
-    max-height: 1000px;
-    
-    display: block;
-
-    background: url("https://i.ibb.co/fkTGM6G/Group-23.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    font-family: Arial;
-    text-align: center;
-   
-}
-
-.topbar2{
-    margin: 1%;
-    width: 98%;
-    max-width: 500px;
-    height: 5%;
-
-    top: 1%;
-    position: absolute;
-
-    vertical-align: middle;
-
-    object-fit: contain;
-
-    background: url("https://i.ibb.co/hCjC7G2/TOPBAR-2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    
-}
 
 .brec1 {
     width: 100%;
