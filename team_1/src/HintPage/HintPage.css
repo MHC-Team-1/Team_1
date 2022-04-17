@@ -28,18 +28,16 @@ html, body{
 
   }
 
-.Retry{
-    position: absolute;
-    width: 471px;
-    height: 115.68px;
-    left: 14px;
-    top: 778px;
-}
+.Tembtn5{
+  display: flex;
+  position:relative;
 
-.Tembtn{
-    position: absolute;
-    width: 471px;
-    height: 115.68px;
-    left: 14px;
-    top: 900px;
+  max-width: 500px;
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+  top: 85%;
+  bottom: 50%;
 }

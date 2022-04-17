@@ -102,20 +102,18 @@ html, body{
     margin-bottom: 20px;
 }
 
-.btn1 {
-    width: 50%;
-    height: 100%;
-    margin: auto;
-
+.Tembtn1{
     display: flex;
-    align-items: center;
+    position:relative;
 
-    float: row;
-    border: 0;
-
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    max-width: 500px;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 80%;
+    bottom: 50%;
 }
 
 

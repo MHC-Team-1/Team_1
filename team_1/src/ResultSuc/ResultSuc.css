@@ -28,9 +28,15 @@ html, body{
   }
   
   .Smtbtn{
-    position: absolute;
-    width: 471px;
-    height: 115.64px;
-    left: 15px;
-    top: 646px;
+    display: flex;
+    position:relative;
+
+    max-width: 500px;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 75%;
+    bottom: 50%;
   }
