@@ -4,10 +4,9 @@ html, body{
   height: 100%;
   width: 100%;
 
-  display: block;
+  display: flex;
 
-  max-width: 800px;
-  background: #fff;
+  max-width: 500px;
 
   font-family: Arial;
   text-align: center;
@@ -35,14 +34,6 @@ html, body{
 
   position: relative;
 }
-
-/* .Leaf {
-  background-image: src="img/Leaf.png";
-  max-width: 100%;
-  height: 44%;
-  position: relative;
-  z-index: 0;
-} */ */
 
 .rec {
   width: 100%;
@@ -187,13 +178,25 @@ html, body{
   height: 100%;
   position: relative;
 }
+
 .TopBG_png1 {
   background: src="img/TopBG_png1.png";
   width: 100%;
   height: 100%;
+
   position: absolute;
   z-index: 3;
 }
+
+ .Leaf {
+  background-image: src="img/Leaf.png";
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  z-index: 2;
+} */
+
 /* .child-3 {
   background-color: green;
   width: 50px;

@@ -9,6 +9,7 @@ html, body{
     max-width: 800px;
     background: #fff;
 
+
     font-family: Arial;
     text-align: center;
 }
@@ -25,7 +26,7 @@ html, body{
     max-width: 500px;
     max-height: 1000px;
     
-    display: flex;
+    display: block;
 
     background: url("https://i.ibb.co/P5CNNHk/introbg.png");
     background-repeat: no-repeat;
@@ -40,73 +41,65 @@ html, body{
 .Talk1{
     display: flex;
 
-    max-width: 300px;
-    margin-left: 5%;
+    position: absolute;
+    
+    width: 382px;
+    height: 78px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: auto;
     margin-right: auto;
-    position: relative;
-    margin-top: 30%;
-  
-    border: 0;
+
 }
 
 .Talk2{
     display: flex;
 
-    max-width: 350px;
-    margin-left: 5%;
-    margin-right: auto;
-    position: relative;
-    margin-top: %;
-  
-    border: 0;
+    position: absolute;
+    width: 458px;
+    height: 126px;
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
 
 .Talk3{
     display: flex;
 
-    max-width: 280px;
-    margin-left: 5%;
-    margin-right: auto;
-    position: relative;
-    margin-top: 5%;
-  
-    border: 0;
+    position: absolute;
+    width: 365px;
+    height: 78px;   
+    margin-top: 350px;
+    margin-bottom: 20px;
 }
 
 .Talk4{
     display: flex;
 
-    max-width: 330px;
-    margin-left: 5%;
-    margin-right: auto;
-    position: relative;
-    margin-top: 7%;
-  
-    border: 0;
+    position: absolute;
+    width: 435px;
+    height: 153px;
+    margin-top: 450px;
+    margin-bottom: 20px;
 }
 
 .Talk5{
     display: flex;
 
-    max-width: 270px;
-    margin-left: 5%;
-    margin-right: auto;
-    position: relative;
-    margin-top: 5%;
-  
-    border: 0;
+    position: absolute;
+    width: 339px;
+    height: 78px;
+    margin-top: 600px;
+    margin-bottom: 20px;
 }
 
 .Talk6{
     display: flex;
 
-    max-width: 160px;
-    margin-left: 5%;
-    margin-right: auto;
-    position: relative;
-    margin-top: 7%;
-  
-    border: 0;
+    position: absolute;
+    width: 196px;
+    height: 74px;
+    margin-top: 700px;
+    margin-bottom: 20px;
 }
 
 .Tembtn1{
@@ -114,10 +107,14 @@ html, body{
     position:relative;
 
     max-width: 500px;
-    width: 100%;
-    left: 0px;
-    right: 0px;
+    width: 60%;
     height: auto;
-
+    margin-left: auto;
+    margin-right: auto;
+    
     top: 80%;
+    bottom: 50%;
 }
+
+
+
