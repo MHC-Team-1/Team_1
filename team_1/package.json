@@ -36,8 +36,5 @@
       "last 1 safari version"
     ],
     "homepage": "."
-  },
-  "devDependencies": {
-    "css-minimizer-webpack-plugin": "^3.4.1"
   }
 }
