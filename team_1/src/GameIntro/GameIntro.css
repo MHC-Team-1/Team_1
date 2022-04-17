@@ -1,3 +1,4 @@
+
 html, body{
     margin: 0 auto;
     padding: 0;
@@ -8,7 +9,6 @@ html, body{
 
     max-width: 800px;
     background: #fff;
-
 
     font-family: Arial;
     text-align: center;
@@ -41,25 +41,25 @@ html, body{
 .Talk1{
     display: flex;
 
-    position: absolute;
-    
-    width: 382px;
-    height: 78px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    margin-left: auto;
+    max-width: 400px;
+    margin-left: 5%;
     margin-right: auto;
-
+    position: relative;
+    margin-top: 5%;
+  
+    border: 0;
 }
 
 .Talk2{
     display: flex;
 
-    position: absolute;
-    width: 458px;
-    height: 126px;
-    margin-top: 200px;
-    margin-bottom: 20px;
+    max-width: 450px;
+    margin-left: 5%;
+    margin-right: auto;
+    position: relative;
+    margin-top: 5%;
+  
+    border: 0;
 }
 
 .Talk3{
