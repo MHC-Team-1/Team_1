@@ -15,7 +15,7 @@ function GameIntro() {
             </div>
 
             <div>
-                <Link to="/Mission1"><img className="Tembtn" alt="Tembtn" src="img/Tembtn.png"/></Link>
+                <Link to="/Mission1"><img className="Tembtn1" alt="Tembtn" src="img/Tembtn.png"/></Link>
             </div>
                 
         </div>

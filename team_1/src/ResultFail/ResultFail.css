@@ -29,25 +29,43 @@ html, body{
   }
 
   .Hint{
-    position: absolute;
-    width: 471px;
-    height: 115.68px;
-    left: 14px;
-    top: 647px;
+    display: flex;
+    position:relative;
+
+    max-width: 500px;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 70%;
+    bottom: 50%;
   }
 
-.Retry{
-    position: absolute;
-    width: 471px;
-    height: 115.68px;
-    left: 14px;
-    top: 778px;
+.Retry1{
+  display: flex;
+  position:relative;
+
+  max-width: 500px;
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+  top: 70%;
+  bottom: 50%;
 }
 
-.Tembtn{
-    position: absolute;
-    width: 471px;
-    height: 115.68px;
-    left: 14px;
-    top: 900px;
+.Tembtn4{
+  display: flex;
+  position:relative;
+
+  max-width: 500px;
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+  top: 70%;
+  bottom: 50%;
 }

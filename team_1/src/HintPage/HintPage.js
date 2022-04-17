@@ -5,7 +5,7 @@ function HintPage() {
    
     return( 
         <div className='HintPage'>
-            <Link to="/ResultFail"><img className="Tembtn" alt="Tembtn" src="img/Tembtn.png"/></Link>
+            <Link to="/ResultFail"><img className="Tembtn5" alt="Tembtn" src="img/Tembtn.png"/></Link>
 
     </div>
 );

@@ -17,7 +17,7 @@ function Mission3() {
                 <button className="cbtn3"/>
             </div>
 
-            <Link to="/Loading"><img className="Tembtn" alt="Tembtn" src="img/Tembtn.png"/></Link>
+            <Link to="/Loading"><img className="Tembtn2" alt="Tembtn" src="img/Tembtn.png"/></Link>
 
         </div>
 
