@@ -1,21 +1,17 @@
-body{
+
+html, body{
     margin: 0 auto;
     padding: 0;
     height: 100%;
     width: 100%;
 
-    max-width: 500px;
-    max-height: 1000px;
-    
     display: block;
 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-   
+    max-width: 800px;
+    background: #fff;
+
     font-family: Arial;
     text-align: center;
-    
 }
 
 .topbar3{
