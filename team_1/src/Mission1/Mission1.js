@@ -1,11 +1,18 @@
 import './Mission1.css';
-import { Link } from "react-router-dom";
-// import Mission3Result from '../Mission3Result/Mission3Result';
+import { Link } from "react-router-dom"
+import React ,{useState} from 'react';
+
+let Result1 = 0;
+
+export function setResult1 () {
+    Result1 = 1;
+    console.log("Result1 : "+ Result1);
+    return Result1;
+}
 
 function Mission1() {
     return( 
             <div className='mission1'>
-                <div className="topbar1"/>
                 <div className="comment">
                     4개 중에 뭘 심어야 좋을까?
                 </div>
@@ -20,11 +27,12 @@ function Mission1() {
                 </div>
                 <div className="rec2">
                     <Link to="/Mission1Result">
-                        <button className="abtn3" result1 = "1"/>
+                        <button className="abtn3" onClick={setResult1}/>
                     </Link>
                     <Link to="/Mission1Result">
                         <button className="abtn4"/>
                     </Link>
+                    
                 </div>
         </div>
     );
