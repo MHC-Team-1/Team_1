@@ -40,7 +40,7 @@ html, body{
 .Talk1{
     display: flex;
 
-    max-width: 300px;
+    max-width: 250px;
     margin-left: 5%;
     margin-right: auto;
     position: relative;
@@ -52,7 +52,7 @@ html, body{
 .Talk2{
     display: flex;
 
-    max-width: 350px;
+    max-width: 300px;
     margin-left: 5%;
     margin-right: auto;
     position: relative;
@@ -64,7 +64,7 @@ html, body{
 .Talk3{
     display: flex;
 
-    max-width: 280px;
+    max-width: 230px;
     margin-left: 5%;
     margin-right: auto;
     position: relative;
@@ -76,7 +76,7 @@ html, body{
 .Talk4{
     display: flex;
 
-    max-width: 330px;
+    max-width: 280px;
     margin-left: 5%;
     margin-right: auto;
     position: relative;
@@ -88,7 +88,7 @@ html, body{
 .Talk5{
     display: flex;
 
-    max-width: 270px;
+    max-width: 220px;
     margin-left: 5%;
     margin-right: auto;
     position: relative;
@@ -100,7 +100,7 @@ html, body{
 .Talk6{
     display: flex;
 
-    max-width: 160px;
+    max-width: 130px;
     margin-left: 5%;
     margin-right: auto;
     position: relative;
