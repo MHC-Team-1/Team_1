@@ -35,7 +35,7 @@ function Mission3() {
     return( 
         <div className='mission3'>
             <div className="comment">
-            양액으로 식물에게 영양분을 공급해야하는데<td/>어떤 농도가 좋을까?
+            이제 양액으로 영양분을 줘보자!<td/>어떤 농도가 식물에게 적당할까?
             </div>
             
             <div className="brec1">
