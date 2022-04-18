@@ -36,51 +36,6 @@ body{
    
 }
 
-
-.topbar3{
-    margin: 1%;
-    width: 98%;
-    max-width: 500px;
-    height: 5%;
-
-    top: 1%;
-    position: absolute;
-
-    vertical-align: middle;
-
-    object-fit: contain;
-
-    background: url("https://i.ibb.co/8Mg4RSx/TOPBAR-5.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    
-}
-
-.crec1 {
-    width: 100%;
-    max-width: 500px;
-    height: 20%;
-    
-    bottom :10%;
-    position: absolute;
-
-    align-items: center;
-  }
-
-.crec2 {
-    width: 100%;
-    max-width: 500px;
-    height: 8%;
-    
-    bottom :2%;
-    position: absolute;
-
-    align-items: center;
-  }
-
-
 .cbtn1 {
     width: 33.3%;
     height: 100%;

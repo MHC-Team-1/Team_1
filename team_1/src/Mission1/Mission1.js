@@ -2,14 +2,15 @@ import './Mission1.css';
 import { Link } from "react-router-dom"
 import React ,{useState} from 'react';
 
+let Result1 = 0;
+
+export function setResult1 () {
+    Result1 = 1;
+    console.log("Result1 : "+ Result1);
+    return Result1;
+}
+
 function Mission1() {
-    let Result1 = 0;
-
-    const setResult1 = () => {
-        Result1 = 1;
-        console.log("Result1 : "+Result1);
-    }
-
     return( 
             <div className='mission1'>
                 <div className="comment">

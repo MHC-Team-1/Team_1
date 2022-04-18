@@ -2,11 +2,12 @@ import './Mission2.css';
 import { Link } from "react-router-dom";
 import React from "react";
 
+let light1 = 0;
+let light2 = 0;
+let light3 = 0;
+let Result2 = 0;
+
 function Mission2() {
-    let test1 = 0;
-    let test2 = 0;
-    let test3 = 0;
-    let Result2 = 0;
     let currentClick = "";
 
     const GetClick = (e) => {
@@ -19,43 +20,43 @@ function Mission2() {
         if (currentClick !== null) {
             console.log(current);
                 
-            if(current.id === "bbtn1" && test1 === 0){
+            if(current.id === "bbtn1" && light1 === 0){
                 current.style = "background : URL(https://i.ibb.co/GP5n2nv/Group-10-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                test1 = 1;
-                console.log("test1 = 0 : "+test1);
+                light1 = 1;
+                console.log("light1 = 0 : "+light1);
             }
-            else if(current.id === "bbtn1" && test1 === 1){
+            else if(current.id === "bbtn1" && light1 === 1){
                 current.style = "background : URL(https://i.ibb.co/1J2xNM0/Group-10.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                test1=0;
-                console.log("test1 = 1 : "+test1);
+                light1=0;
+                console.log("light1 = 1 : "+light1);
             }
 
-            if(current.id === "bbtn2" && test2 == 0){
+            if(current.id === "bbtn2" && light2 === 0){
                 current.style = "background : URL(https://i.ibb.co/GJH2Jxn/Group-9-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";        
-                test2 = 1;
-                console.log("test2 = 0 : "+test2);
+                light2 = 1;
+                console.log("light2 = 0 : "+light2);
             }
-            else if(current.id === "bbtn2" && test2 == 1){
+            else if(current.id === "bbtn2" && light2 === 1){
                 current.style = "background : URL(https://i.ibb.co/bRfwR4b/Group-9.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                test2 = 0
-                console.log("test2 = 1 : "+test2);
+                light2 = 0
+                console.log("light2 = 1 : "+light2);
             }
 
-            if(current.id === "bbtn3" && test3 == 0){
+            if(current.id === "bbtn3" && light3 === 0){
                 current.style = "background : URL(https://i.ibb.co/b30rVCH/Group-8-3.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                test3 = 1;
-                console.log("test3 = 0 : "+test3);
+                light3 = 1;
+                console.log("light3 = 0 : "+light3);
             }
-            else if(current.id === "bbtn3" && test3 == 1){
+            else if(current.id === "bbtn3" && light3 === 1){
                 current.style = "background : URL(https://i.ibb.co/tcgFx5V/Group-8.png); background-size: contain; background-repeat: no-repeat; background-position: center;";
-                test3 = 0;
-                console.log("test3 = 1 : "+test3);
+                light3 = 0;
+                console.log("light3 = 1 : "+light3);
             }
         }
    };
 
    const makeResult = () => {
-        Result2 = test1 && test2 && test3;
+        Result2 = light1 && light2 && light3;
         console.log("Result : " + Result2);
    };
         
@@ -79,6 +80,22 @@ function Mission2() {
         </div>
 
     );
-    }
+}
+
+export function setLight1(){
+    return light1;
+}
+
+export function setLight2(){
+    return light2;
+}
+
+export function setLight3(){
+    return light3;
+}
+
+export function sendResult2(){
+    return Result2;
+}
 
 export default Mission2;

@@ -37,28 +37,7 @@ body{
    
 }
 
-.topbar2{
-    margin: 1%;
-    width: 98%;
-    max-width: 500px;
-    height: 5%;
-
-    top: 1%;
-    position: absolute;
-
-    vertical-align: middle;
-
-    object-fit: contain;
-
-    background: url("https://i.ibb.co/hCjC7G2/TOPBAR-2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    
-}
-
-.result2_light {
+.result2_light_w {
     width: 100%;
     max-width: 500px;
     height: 100%;
@@ -67,13 +46,122 @@ body{
     
     top: 0%;
     position:relative;
-    
 
     border: 0;
 
-    background: url("https://i.ibb.co/gt17H1W/Group-26.png");
+    background: url("https://i.ibb.co/D1Rtnhz/W.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.result2_light_r {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 0%;
+    position:relative;
+
+    border: 0;
+
+    background: url("https://i.ibb.co/hgJbzG0/R.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.result2_light_b {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 0%;
+    position:relative;
+
+    border: 0;
+
+    background: url("https://i.ibb.co/KNXq2fS/B.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.result2_light_c {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 0%;
+    position:relative;
+
+    border: 0;
+
+    background: url("https://i.ibb.co/FhCP5Fn/C.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.result2_light_g {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 0%;
+    position:relative;
+
+    border: 0;
+
+    background: url("https://i.ibb.co/JCHq9Gs/G.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.result2_light_m {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 0%;
+    position:relative;
+
+    border: 0;
+
+    background: url("https://i.ibb.co/CmM4fqy/M.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.result2_light_y {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 0%;
+    position:relative;
+
+    border: 0;
+
+    background: url("https://i.ibb.co/RTVVsKt/Y.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 
