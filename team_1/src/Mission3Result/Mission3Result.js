@@ -12,13 +12,13 @@ function Mission3Result() {
     console.log("ReWater2 : "+ReWater2); 
     console.log("ReWater3 : "+ReWater3);
 
-    if(ReWater1 == 1){
+    if(ReWater1 === 1){
         WaterResult = "result3_y";
     }
-    else if(ReWater2 == 1){
+    else if(ReWater2 === 1){
         WaterResult = "result3_g";
     }
-    else if(ReWater3 == 1){
+    else if(ReWater3 === 1){
         WaterResult = "result3_b";
     }
 
