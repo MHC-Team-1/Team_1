@@ -1,0 +1,58 @@
+
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    display: block;
+
+    max-width: 800px;
+    background: #fff;
+
+
+    font-family: Arial;
+    text-align: center;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.mission1Result{
+    height: 100%;
+    width: 100%;
+
+    max-width: 500px;
+    max-height: 1000px;
+    
+    display: block;
+
+    background: url("https://i.ibb.co/5hCmxkX/back1.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    
+    font-family: Arial;
+    text-align: center;
+   
+}
+
+.result1 {
+    width: 100%;
+    max-width: 500px;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 40%;
+    position:relative;
+
+    border: 0;
+
+    background: url("https://i.ibb.co/HtWMzXW/Group-25.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
