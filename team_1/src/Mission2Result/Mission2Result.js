@@ -46,7 +46,11 @@ function Mission2Result() {
     return( 
         <Link to="/Mission3">
             <div className='mission2'>
-                <div className = {setLight()}/>
+            <div className='comment'>
+                    LED광을 켰습니다!
+            </div>
+            <div className = {setLight()}/>
+            <div className='nextstage'/>
             </div>
         </Link>
     );

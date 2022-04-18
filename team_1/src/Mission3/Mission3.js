@@ -5,7 +5,6 @@ import React from "react";
 let water1 = 0;
 let water2 = 0;
 let water3 = 0;
-let Result3 = 0;
 
 function Mission3() {
     let currentClick3 = "";
@@ -22,7 +21,6 @@ function Mission3() {
                 
             if(current3.id === "cbtn1"){
                 water1 = 1;
-                Result3 = 1;
             }
             else if(current3.id === "cbtn2"){
                 water2 = 1;
@@ -37,7 +35,7 @@ function Mission3() {
     return( 
         <div className='mission3'>
             <div className="comment">
-            양액으로 식물에게 영양분을 공급해야하는데<td/>어떤 농도가 좋을까?
+            이제 양액으로 영양분을 줘보자!<td/>어떤 농도가 식물에게 적당할까?
             </div>
             
             <div className="brec1">
@@ -65,10 +63,6 @@ export function setWater2(){
 
 export function setWater3(){
     return water3;
-}
-
-const sendResult3 = () => {
-    return Result3;
 }
 
 export default Mission3;

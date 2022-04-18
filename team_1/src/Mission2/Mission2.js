@@ -64,7 +64,7 @@ function Mission2() {
     return( 
         <div className='mission2'>
             <div className="comment">
-                원하는 색을 선택하고<td/>버튼을 누르세요. (다중 선택 가능)
+                식물이 잘 자랄 수 있는 선택하고<td/>버튼을 눌러주세요! (다중 선택 가능)
             </div>
             
             {<div className="brec1">
