@@ -27,7 +27,7 @@ html, body{
     
     display: flex;
 
-    background: url("https://i.ibb.co/P5CNNHk/introbg.png");
+    background: url("../../public/img/GameIntrobg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
