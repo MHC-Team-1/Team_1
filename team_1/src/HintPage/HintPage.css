@@ -20,24 +20,29 @@ html, body{
 .HintPage{
 
     max-width: 500px;
-    height: 100%;
-    background: url("https://i.ibb.co/TH61TxD/Hintbg.png");
+    max-height: 1000px;
+    background: url("../../public/img/Hintbg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
   }
 
-.Tembtn5{
+  .Hintimg{
+    position: relative;
+    width: 100%;
+    top: -100px;
+
+  }
+
+.Xbtn{
   display: flex;
   position:relative;
 
-  max-width: 500px;
-  width: 60%;
+  width: 15%;
   height: auto;
-  margin-left: auto;
+  margin-left: 80%;
   margin-right: auto;
-  
-  top: 85%;
-  bottom: 50%;
-}
+  z-index: 2;
+
+  }

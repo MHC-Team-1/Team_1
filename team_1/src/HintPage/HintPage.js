@@ -5,9 +5,11 @@ function HintPage() {
    
     return( 
         <div className='HintPage'>
-            <Link to="/ResultFail"><img className="Tembtn5" alt="Tembtn" src="img/Tembtn.png"/></Link>
-
-    </div>
+            <Link to="/FailRM"><img className="Xbtn" alt="Xbtn" src="img/Xbtn.png"/></Link>
+        <div>
+            <img className="Hintimg" alt="Hintimg" src="img/Hintimg.png"/>
+</div>
+</div>
 );
 }
 export default HintPage;
