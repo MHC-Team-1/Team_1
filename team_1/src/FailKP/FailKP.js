@@ -1,10 +1,10 @@
-import './ResultFail.css';
+import './FailKP.css';
 import { Link } from "react-router-dom";
 
-function ResultFail() {
+function FailKP() {
    
     return( 
-        <div className='ResultFail'>
+        <div className='FailKP'>
                        <Link to="/HintPage"><img className="Hint" alt="Hint" src="img/Hint.png"/></Link>
                        <Link to="/Mission1"><img className="Retry1" alt="Retry" src="img/Retry.png"/></Link>
                        <Link to="/ResultSuc"><img className="Tembtn4" alt="Tembtn" src="img/Tembtn.png"/></Link>
@@ -13,4 +13,4 @@ function ResultFail() {
     </div>
 );
 }
-export default ResultFail;
+export default FailKP;
