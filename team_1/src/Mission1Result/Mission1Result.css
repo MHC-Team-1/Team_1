@@ -93,10 +93,9 @@
 }
 
 .nextstage{
-    width: 80%;
+    width: 50%;
     height: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
     bottom:3%;
 
     position:absolute;
