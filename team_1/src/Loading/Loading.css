@@ -28,7 +28,7 @@ html, body{
     
     display: block;
 
-    background: url("../../public/img/Loadingbg.png");
+    background: url("../../public/img/loadingbg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
