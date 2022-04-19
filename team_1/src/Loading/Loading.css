@@ -28,7 +28,7 @@ html, body{
     
     display: block;
 
-    background: url("../../public/img/Loadingbg.png");
+    background: url("https://i.ibb.co/5nrLfB2/loadingbg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -38,6 +38,19 @@ html, body{
    
 }
 
+.Loadimg{
+    display: flex;
+    position:relative;
+
+    max-width: 500px;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top: 60%;
+    bottom: 50%;
+}
 
 .Tembtn3{
     display: flex;
@@ -49,7 +62,7 @@ html, body{
     margin-left: auto;
     margin-right: auto;
     
-    top: 80%;
+    top: 30%;
     bottom: 50%;
 }
 
