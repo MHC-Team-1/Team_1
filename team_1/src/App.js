@@ -10,6 +10,8 @@ import Mission3Result from './Mission3Result/Mission3Result'
 import Loading from './Loading/Loading'
 import FailRM from './FailRM/FailRM'
 import SucRM from './SucRM/SucRM'
+import GFInfo from './GFInfo/GFInfo'
+
 
 //import FailRM from './FailKP/FailKP'
 //import FailRM from './FailBH/FailBH'
@@ -37,6 +39,7 @@ function App() {
         <Route path="/FailBH" element={<FailBH/>} />
         <Route path="/FailET" element={<FailET/>} /> */ }
         <Route path="/SucRM" element={<SucRM/>} />
+        <Route path="/GFInfo" element={<GFInfo/>} />
         <Route path="/HintPage" element={<HintPage/>} />
       </Routes>
     </BrowserRouter>
