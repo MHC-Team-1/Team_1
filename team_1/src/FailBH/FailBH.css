@@ -33,13 +33,13 @@ html, body{
     display: flex;
     position:relative;
 
-    max-width: 480px;
-    width: 70%;
+    max-width: 500px;
+    width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     
-    top: 13%;
+    top: 5%;
     bottom: 15%;
   }
 
@@ -53,7 +53,7 @@ html, body{
     margin-left: auto;
     margin-right: auto;
     
-    top: 20%;
+    top: 10%;
   }
 
 .Retry1{
@@ -66,7 +66,7 @@ html, body{
   margin-left: auto;
   margin-right: auto;
   
-  top: 20%;
+  top: 10%;
 }
 
 .Tembtn4{
@@ -79,5 +79,5 @@ html, body{
   margin-left: auto;
   margin-right: auto;
   
-  top: 20%;
+  top: 10%;
 }

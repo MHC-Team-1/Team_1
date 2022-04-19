@@ -37,6 +37,15 @@ html, body{
    
 }
 
+@keyframes animation_Talk1 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .Talk1{
     display: flex;
 
@@ -44,69 +53,168 @@ html, body{
     margin-left: 5%;
     margin-right: auto;
     position: relative;
-    margin-top: 30%;
-  
+    margin-top: 15%;
+    
+    opacity: 100%;
+    animation: animation_Talk1 2s;
+    animation-fill-mode: forwards;
+
     border: 0;
+}
+
+@keyframes animation_Talk2 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
 }
 
 .Talk2{
     display: flex;
 
-    max-width: 300px;
+    max-width: 310px;
     margin-left: 5%;
     margin-right: auto;
     position: relative;
-    margin-top: 7%;
-  
+    margin-top: 10%;
+    
+    opacity: 100%;
+    animation: animation_Talk2 3s;
+    animation-fill-mode: forwards;
+
     border: 0;
 }
 
+
+@keyframes animation_Talk3 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+}
+
 .Talk3{
+    display: flex;
+
+    max-width: 250px;
+    margin-left: 5%;
+    margin-right: auto;
+    position: relative;
+    margin-top: 10%;
+    
+    opacity: 100%;
+    animation: animation_Talk3 5s;
+    animation-fill-mode: forwards;
+
+    border: 0;
+}
+
+@keyframes animation_Talk4 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+}
+
+.Talk4{
+    display: flex;
+
+    max-width: 290px;
+    margin-left: 5%;
+    margin-right: auto;
+    position: relative;
+    margin-top: 10%;
+    
+    opacity: 100%;
+    animation: animation_Talk4 7s;
+    animation-fill-mode: forwards;
+
+    border: 0;
+}
+
+@keyframes animation_Talk5 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+}
+
+.Talk5{
     display: flex;
 
     max-width: 230px;
     margin-left: 5%;
     margin-right: auto;
     position: relative;
-    margin-top: 5%;
-  
+    margin-top: 10%;
+    
+    opacity: 100%;
+    animation: animation_Talk5 9s;
+    animation-fill-mode: forwards;
+
     border: 0;
 }
 
-.Talk4{
-    display: flex;
 
-    max-width: 280px;
-    margin-left: 5%;
-    margin-right: auto;
-    position: relative;
-    margin-top: 7%;
-  
-    border: 0;
-}
-
-.Talk5{
-    display: flex;
-
-    max-width: 220px;
-    margin-left: 5%;
-    margin-right: auto;
-    position: relative;
-    margin-top: 5%;
-  
-    border: 0;
+@keyframes animation_Talk6 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
 }
 
 .Talk6{
     display: flex;
 
-    max-width: 130px;
+    max-width: 140px;
     margin-left: 5%;
     margin-right: auto;
     position: relative;
-    margin-top: 7%;
-  
+    margin-top: 10%;
+    
+    opacity: 100%;
+    animation: animation_Talk6 11s;
+    animation-fill-mode: forwards;
+
     border: 0;
+}
+
+
+@keyframes animation_Tembtn1 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
 }
 
 .Tembtn1{
@@ -118,6 +226,10 @@ html, body{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+
+    opacity: 100%;
+    animation: animation_Tembtn1 13s;
+    animation-fill-mode: forwards;
 
     margin-top: 10%;
 }
