@@ -24,8 +24,9 @@ function Loading() {
 
     return( 
         <div className='Loading'>
+            <div><img className="Loadimg" alt="Loadimg" src="img/Loadimg.png"/></div>
                 {/* alert === true */}
-                       <Link to="/FailRM"><img className="Tembtn3" alt="Tembtn" src="img/Tembtn.png"/></Link>
+                       <Link to="/ResultFail"><img className="Tembtn3" alt="Tembtn" src="img/Tembtn.png"/></Link>
     </div>
 );
 }

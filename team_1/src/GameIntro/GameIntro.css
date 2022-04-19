@@ -42,10 +42,9 @@ html, body{
 
     max-width: 250px;
     margin-left: 5%;
-    opacity: 1;
+    margin-right: auto;
     position: relative;
     margin-top: 30%;
-    transition: 1.3s;
   
     border: 0;
 }
@@ -55,6 +54,7 @@ html, body{
 
     max-width: 300px;
     margin-left: 5%;
+    margin-right: auto;
     position: relative;
     margin-top: 7%;
   
@@ -66,6 +66,7 @@ html, body{
 
     max-width: 230px;
     margin-left: 5%;
+    margin-right: auto;
     position: relative;
     margin-top: 5%;
   
@@ -77,6 +78,7 @@ html, body{
 
     max-width: 280px;
     margin-left: 5%;
+    margin-right: auto;
     position: relative;
     margin-top: 7%;
   
@@ -88,6 +90,7 @@ html, body{
 
     max-width: 220px;
     margin-left: 5%;
+    margin-right: auto;
     position: relative;
     margin-top: 5%;
   
@@ -99,6 +102,7 @@ html, body{
 
     max-width: 130px;
     margin-left: 5%;
+    margin-right: auto;
     position: relative;
     margin-top: 7%;
   

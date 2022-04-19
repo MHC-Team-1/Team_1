@@ -17,12 +17,11 @@ html, body{
     width: 100%;
   }
   
-  .FailRM{
+  .ResultFail{
 
-    width: 100%;
-    height: 100%;
     max-width: 500px;
-    background: url("../../public/img/RFRMbg.png");
+    height: 100%;
+    background: url("https://i.ibb.co/6JG68TQ/Result-Failbg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
