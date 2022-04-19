@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function GameIntro() {
    
     return( 
+        <Link to="/Mission1">
             <div className='GameIntro'>
                 <div class="parent">
                 <img className="Talk1" alt="Talk1" src="img/Talk1.png" />
@@ -13,11 +14,9 @@ function GameIntro() {
                 <img className="Talk5" alt="Talk5" src="img/Talk5.png" />
                 <img className="Talk6" alt="Talk6" src="img/Talk6.png" />
                 <Link to="/Mission1"><img className="Tembtn1" alt="Tembtn" src="img/Tembtn.png"/></Link>
-
+                </div>
             </div>
-
-                
-        </div>
+        </Link>
     );
 }
 

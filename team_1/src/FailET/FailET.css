@@ -17,7 +17,7 @@ html, body{
     width: 100%;
   }
   
-  .ResultFail{
+  .FailET{
 
     max-width: 500px;
     width: 100%;
@@ -29,7 +29,7 @@ html, body{
 
   }
 
-  .FailRMimg{
+  .FailETimg{
     display: flex;
     position:relative;
 
