@@ -7,7 +7,7 @@ function SucRM() {
         <div className='SucRM'>
             <img className="SucRMimg" alt="SucRMimg" src="img/SucRMimg.png"/>
 
-            <Link to="/SucRM"><img className="Smtbtn" alt="Smtbtn" src="img/Smtbtn.png"/></Link>
+            <Link to="/GFInfo"><img className="Smtbtn" alt="Smtbtn" src="img/Smtbtn.png"/></Link>
     </div>
 );
 }
