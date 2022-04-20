@@ -4,8 +4,6 @@ html, body{
     height: 100%;
     width: 100%;
 
-    display: block;
-
     max-width: 800px;
     background: rgb(180, 180, 180);
 
@@ -22,38 +20,49 @@ html, body{
 .Loading{
     height: 100%;
     width: 100%;
-
-    max-width: 500px;
-    max-height: 1000px;
-    
-    display: block;
-
     background: url("../../public/img/loadingbg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-    font-family: Arial;
-    text-align: center;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.Loadimg{
-    display: flex;
-    position:relative;
+.Tembtn3Link{
+    position: fixed;
+    display: block;
+    bottom: 16px;
+}
 
+.Tembtn3 {
+    width: 80%;
+}
+
+
+.Loadimg{
     max-width: 500px;
     width: 60%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    
-    top: 30%;
-    bottom: 50%;
+    margin-left: 0%;
+    z-index: 2;
+    top: 0%;
 }
 
+@keyframes animation_Tembtn3 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+}
+
+
 .Tembtn3{
-    display: flex;
     position:relative;
 
     max-width: 500px;
@@ -61,6 +70,9 @@ html, body{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+
+    animation: animation_Talk5 3s;
+    animation-fill-mode: forwards;
 
     margin-top: 90%;
 }
