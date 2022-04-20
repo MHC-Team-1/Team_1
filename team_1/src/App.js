@@ -23,29 +23,29 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/GameIntro" element={<GameIntro />} />
-        <Route path="/Game" element={<Game />} />
-        <Route path="/Mission1" element={<Mission1/>} />
-        <Route path="/Mission1Result" element={<Mission1Result/>}/>
-        <Route path="/Mission2" element={<Mission2/>} />
-        <Route path="/Mission2Result" element={<Mission2Result/>}/>
-        <Route path="/Mission3" element={<Mission3/>} />
-        <Route path="/Mission3Result" element={<Mission3Result/>}/>
-        <Route path="/Loading" element={<Loading/>} />
-        <Route path="/FailRM" element={<FailRM/>} />
-        <Route path="/FailKP" element={<FailKP/>} />
-        <Route path="/FailBH" element={<FailBH/>} />
-        <Route path="/FailET" element={<FailET/>} />
-        <Route path="/SucRM" element={<SucRM/>} />
-        <Route path="/SucKP" element={<SucKP/>} />
-        <Route path="/SucBH" element={<SucBH/>} />
-        <Route path="/SucET" element={<SucET/>} />
-        <Route path="/GFInfo" element={<GFInfo/>} />
-        <Route path="/HintPage" element={<HintPage/>} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Landing />} />
+      <Route path="/GameIntro" element={<GameIntro />} />
+      <Route path="/Game" element={<Game />} />
+      <Route path="/Mission1" element={<Mission1 />} />
+      <Route path="/Mission1Result" element={<Mission1Result />} />
+      <Route path="/Mission2" element={<Mission2 />} />
+      <Route path="/Mission2Result" element={<Mission2Result />} />
+      <Route path="/Mission3" element={<Mission3 />} />
+      <Route path="/Mission3Result" element={<Mission3Result />} />
+      <Route path="/Loading" element={<Loading />} />
+      <Route path="/FailRM" element={<FailRM />} />
+      <Route path="/FailKP" element={<FailKP />} />
+      <Route path="/FailBH" element={<FailBH />} />
+      <Route path="/FailET" element={<FailET />} />
+      <Route path="/SucRM" element={<SucRM />} />
+      <Route path="/SucKP" element={<SucKP />} />
+      <Route path="/SucBH" element={<SucBH />} />
+      <Route path="/SucET" element={<SucET />} />
+      <Route path="/GFInfo" element={<GFInfo />} />
+      <Route path="/HintPage" element={<HintPage />} />
+    </Routes>
+  </BrowserRouter>
   )
 }
 

@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.44c38f1a.css",
-    "main.js": "/static/js/main.0941c7de.js",
+    "main.css": "/static/css/main.462172ab.css",
+    "main.js": "/static/js/main.7dccec30.js",
     "static/js/787.f7ab11fc.chunk.js": "/static/js/787.f7ab11fc.chunk.js",
-    "static/media/Landingbg.png": "/static/media/Landingbg.73795dd2e7d8bd172155.png",
-    "static/media/Loadingbg.png": "/static/media/Loadingbg.0fb0a8358b619b2ed64d.png",
-    "static/media/RFRMbg.png": "/static/media/RFRMbg.b36645f7b7895689b8bf.png",
+    "static/media/loadingbg.png": "/static/media/loadingbg.25705a51f288fcb22f4e.png",
+    "static/media/Sucbg.png": "/static/media/Sucbg.bbf1e088a0c5d6766d41.png",
     "static/media/GameIntrobg.png": "/static/media/GameIntrobg.ea39cd7da3d5fc60f787.png",
+    "static/media/Failbg.png": "/static/media/Failbg.ae18aefebcff61df643f.png",
+    "static/media/Hintbg.png": "/static/media/Hintbg.66b426bc8edb76acf1a1.png",
+    "static/media/GFInfobg.png": "/static/media/GFInfobg.580d8ef3f967c51a85f1.png",
     "index.html": "/index.html",
-    "main.44c38f1a.css.map": "/static/css/main.44c38f1a.css.map",
-    "main.0941c7de.js.map": "/static/js/main.0941c7de.js.map",
+    "main.462172ab.css.map": "/static/css/main.462172ab.css.map",
+    "main.7dccec30.js.map": "/static/js/main.7dccec30.js.map",
     "787.f7ab11fc.chunk.js.map": "/static/js/787.f7ab11fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44c38f1a.css",
-    "static/js/main.0941c7de.js"
+    "static/css/main.462172ab.css",
+    "static/js/main.7dccec30.js"
   ]
 }
