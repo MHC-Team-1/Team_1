@@ -5,11 +5,13 @@ function HintPage() {
    
     return( 
         <div className='HintPage'>
-            <Link to="/Mission1"><img className="Xbtn" alt="Xbtn" src="img/Xbtn.png"/></Link>
         <div>
             <img className="Hintimg" alt="Hintimg" src="img/Hintimg.png"/>
-</div>
-</div>
+        </div>
+        <Link to="/Mission1">
+            <div className="Retry1"/>
+        </Link>
+        </div>
 );
 }
 export default HintPage;
