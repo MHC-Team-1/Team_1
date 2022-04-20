@@ -34,11 +34,10 @@ html, body{
 }
 
 .parent {
-  /*background: src="img/Pattern1.png";*/
   width: 100%;
   max-width: 500px;
   height: 100%;
-  max-height: 840px;
+  max-height: 50%;
   position: relative;
 
   display: block;
@@ -48,7 +47,7 @@ html, body{
   width: 100%;
   max-width: 500px;
   position:absolute;
-  height: 90%;
+  height: 100%;
   max-height: max-content;
 
   top: 0;
@@ -202,50 +201,18 @@ html, body{
   
 }
 
-
-/* 식물 부분까지 완료*/
-
-.Landingtext{
-  display: flex;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-
-/* .Leaf{
-  max-width: 100%;
-  position: relative;
-  z-index: 1;
-} */
-
-
-
-
-/* 무농약~유럽채소 받자 */
-.Landingtext{ 
-  display: flex;
-  position: relative;
-  width: 93%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  top: auto;
-  bottom: 2%;
-}
-
 /* 게임시작하기 */
 .YBUTTON {
   display:block;
   position:absolute;
 
-  width: 100%;
+  width: 80%;
   max-width: 500px;
-  height: 20%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
 
-  bottom: 10%;
+ bottom: 10%;
 
   
   background: url("https://i.ibb.co/cQhsfCn/YBUTTON-1.png");
@@ -255,119 +222,134 @@ html, body{
 
 }
 
+/* 식물 부분까지 완료*/
+
 /* 이벤트 안내 */
 .Frame1 {
-  display: flex;
+  position: absolute;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: 40%;
 
-  width: 30%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  margin-top: 7%;
-  margin-bottom: 7%;
-
-  border: 0;
+  top: 720px;
 }
 
-/* 참여기간~참여완료! */
-.Ltext{
-  display: flex;
+.next_img {
+  display:block;
+  position:absolute;
 
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: 15%;
+  
+  top: 0%;
 
-  margin-top: 7%;
-  margin-bottom: 7%;
+  background: url("https://i.ibb.co/FqSKDsx/eva-arrowhead-down-fill.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
 
-  color: #000000;
+}
+
+.eventinfo1{
+  position: absolute;
+  display:block;
+  width: 100%;
+  height: 15%;
+  max-width: 500px;
+  top:16%;
+
+
+  border: 0;
+  background: url("https://i.ibb.co/NtJZMNs/Frame-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+}
+
+.info {
+  display:block;
+  position:absolute;
+
+  width: 74%;
+  max-width: 500px;
+  height: 50%;
+  margin-left: 13%;
+  margin-right: 13%;
+   
+  bottom: 20%;
+  
+
+  background: url("https://i.ibb.co/njrdg24/2022-4-21-5-5-14-2022-5-6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+
 }
 
 /* 경품안내 */
 .Frame2 {
-  display: flex;
-
-  width: 28%;
-  height: auto;
+  position: absolute;
+  display: block;
+  width: 100%;
   max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  margin-top: 7%;
-  margin-bottom: 7%;
+  height: 40%;
+  
+  top: 990px;
+}
+
+.eventinfo2{
+  position: absolute;
+  display:block;
+  width: 100%;
+  height: 15%;
+  max-width: 500px;
+  top:0%;
+
+
   border: 0;
+  background: url("https://i.ibb.co/86wWJtw/Frame-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
 }
 
 /* 경품사진 */
-.Kit{
-  display: flex;
+.Kit {
+  display:block;
+  position:absolute;
 
-  width: 80%;
-  height: auto;
+  width: 90%;
   max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  margin-top: 7%;
-  margin-bottom: 7%;
+  height: 90%;
 
-  border: 0;
+  margin: 5%;
+  
+  top: 15%;
+
+  background: url("https://i.ibb.co/tP4XGpT/Group-48.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+
 }
 
-.info{
+.warning {
+  display:block;
+  position:absolute;
+
+  width: 90%;
   max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 11%;
+  margin: 5%;
   
-  top: 3%;
-  position:relative;
+  bottom: -40%;
 
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 157.2%;
-  /* or 20px */
-  
-  letter-spacing: -0.1em;
-  margin-top: 7%;
-  margin-bottom: 7%;
+  background: url("https://i.ibb.co/QYyZ1dg/image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
 
-  color: #000000;
-  
 }
 
-
-/*
-
-
-.TopBG_png1 {
-  background: src="img/TopBG_png1.png";
-  width: 100%;
-  height: 100%;
-
-  position: absolute;
-  z-index: 3;
-}
-
- .Leaf {
-  background-image: src="img/Leaf.png";
-  width: 100%;
-  height: 100%;
-
-  position: absolute;
-  z-index: 2;
-} */
-
-/* .child-3 {
-  background-color: green;
-  width: 50px;
-  height: 50px;
-  
-  top: 90%;
-  left: 25%;
-  position: absolute;
-  z-index: 1;
-} */
