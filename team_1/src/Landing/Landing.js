@@ -2,6 +2,7 @@ import './Landing.css'
 import { Link } from 'react-router-dom'
 
 function Landing() {
+
   return (
     <div className='Landing'>
       <div class="parent">
@@ -29,8 +30,12 @@ function Landing() {
       </div>
       
   </div>
+
+
   )
 }
+
+
 
 
 
