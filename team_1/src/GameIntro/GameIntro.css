@@ -4,7 +4,7 @@ html, body{
     height: 100%;
     width: 100%;
 
-    display: block;
+    display: Flex;
 
     max-width: 800px;
     background: #fff;
@@ -19,13 +19,7 @@ html, body{
 }
 
 .GameIntro{
-    height: 1000px;
     width: 100%;
-
-    max-width: 500px;
-    max-height: 1000px;
-    
-    display: flex;
 
     background: url("../../public/img/GameIntrobg.png");
     background-repeat: no-repeat;
@@ -47,17 +41,15 @@ html, body{
 }
 
 .Talk1{
-    display: flex;
-
-    max-width: 250px;
-    margin-left: 5%;
-    margin-right: auto;
+    width: 70%;
+    float: left;
     position: relative;
-    margin-top: 15%;
+    padding: 5%;
     
     opacity: 100%;
     animation: animation_Talk1 2s;
     animation-fill-mode: forwards;
+    margin-top: 20%;
 
     border: 0;
 }
@@ -75,13 +67,11 @@ html, body{
 }
 
 .Talk2{
-    display: flex;
 
-    max-width: 310px;
-    margin-left: 5%;
-    margin-right: auto;
+    width: 80%;
+    float: left;
     position: relative;
-    margin-top: 10%;
+    padding: 5%;
     
     opacity: 100%;
     animation: animation_Talk2 3s;
@@ -104,13 +94,11 @@ html, body{
 }
 
 .Talk3{
-    display: flex;
 
-    max-width: 250px;
-    margin-left: 5%;
-    margin-right: auto;
+    width: 63%;
+    float: left;
     position: relative;
-    margin-top: 10%;
+    padding: 5%;
     
     opacity: 100%;
     animation: animation_Talk3 5s;
@@ -132,13 +120,11 @@ html, body{
 }
 
 .Talk4{
-    display: flex;
 
-    max-width: 290px;
-    margin-left: 5%;
-    margin-right: auto;
+    width: 75%;
+    float: left;
     position: relative;
-    margin-top: 10%;
+    padding: 5%;
     
     opacity: 100%;
     animation: animation_Talk4 7s;
@@ -160,13 +146,10 @@ html, body{
 }
 
 .Talk5{
-    display: flex;
-
-    max-width: 230px;
-    margin-left: 5%;
-    margin-right: auto;
+    width: 60%;
+    float: left;
     position: relative;
-    margin-top: 10%;
+    padding: 5%;
     
     opacity: 100%;
     animation: animation_Talk5 9s;
@@ -189,13 +172,10 @@ html, body{
 }
 
 .Talk6{
-    display: flex;
-
-    max-width: 140px;
-    margin-left: 5%;
-    margin-right: auto;
+    width: 35%;
+    float: left;
     position: relative;
-    margin-top: 10%;
+    padding: 5%;
     
     opacity: 100%;
     animation: animation_Talk6 11s;
@@ -218,18 +198,18 @@ html, body{
 }
 
 .Tembtn1{
-    display: flex;
     position:relative;
 
-    max-width: 500px;
     width: 50%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 
     opacity: 100%;
     animation: animation_Tembtn1 13s;
     animation-fill-mode: forwards;
 
     margin-top: 10%;
+    margin-bottom: 15%;
+
+
 }
