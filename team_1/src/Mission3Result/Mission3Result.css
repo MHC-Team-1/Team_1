@@ -17,6 +17,25 @@
    
 }
 
+.comment3r{
+  position: absolute;
+  width: 100%;
+  max-width: 500px;
+  height: 6%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10%;
+  z-index: 3;
+
+  background: url("https://i.ibb.co/DCCPwtY/image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  color: #000000;
+}
+
+
   .result3_y {
     width: 100%;
     max-width: 500px;
@@ -66,6 +85,23 @@
   border: 0;
 
   background: url("https://i.ibb.co/d6S7pRP/water-G.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.next_btn3{
+  width: 100%;
+  max-width: 500px;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:5%;
+
+  position:absolute;
+  display: block;
+
+  background: url("https://i.ibb.co/kchRDzG/resault-Button.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
