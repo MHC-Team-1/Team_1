@@ -6,9 +6,11 @@ export function Mission1Result() {
     return( 
         <Link to="/Mission2">
             <div className='mission1Result'>
-                <div className='comment'>
-                    씨앗을 넣었습니다!
+                <div className='topbar1'>
+                    <div className='topbar1s'/>
+                    <div className='topbar1m'/>
                 </div>
+                <div className='comment1r'/>
                 <div className='result1'>
                     <div className='reback'>
                         <div className='seed'/>
@@ -16,7 +18,7 @@ export function Mission1Result() {
                     <div className='refront'/>
                 </div>
                 <div className='nextstage'/>
-        </div>
+            </div>
         </Link>
     );
 }

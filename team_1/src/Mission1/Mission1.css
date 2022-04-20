@@ -7,7 +7,7 @@
     
     display: block;
 
-    background: url("https://i.ibb.co/MNXCN4b/Group-37.png");
+    background: url("https://i.ibb.co/tDYKGH4/BG-dark-2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -17,23 +17,55 @@
    
 }
 
-.comment{
+.topbar1{
+    width: 100%;
+    max-width: 500px;
+    height: 8%;
+
+    top: 1%;
+    position : fixed;
+}
+
+.topbar1s{
+    width: 28%;
+    height: 100%;
+
+    left: 5%;
+    position: absolute;
+
+    background: url("https://i.ibb.co/ZxRF0Ds/Sta1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.topbar1m{
+    width: 48%;
+    height: 100%;
+
+    right: 5%;
+    position: absolute;
+
+    background: url("https://i.ibb.co/vqkHMrJ/Mis1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.comment1{
     position: absolute;
     width: 100%;
     max-width: 500px;
-    height: 25px;
+    height: 6%;
     margin-left: auto;
     margin-right: auto;
-    top: 9%;
+    top: 10%;
     z-index: 3;
 
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: -0.05em;
+    background: url("https://i.ibb.co/KwpQmvP/image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     
     color: #000000;
 }
@@ -67,11 +99,15 @@
     float: left;
     border: 0;
 
-    background: url("https://i.ibb.co/Jt05PRf/Group-7.png");
+    background: url("https://i.ibb.co/3pfdCFS/Group-7.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+.abtn1:active{
+    transform: scale( 1.2, 1.2 )
+}
+
 .abtn2 {
     width: 50%;
     height: 100%;
@@ -83,11 +119,15 @@
     float: left;
     border: 0;
  
-    background: url("https://i.ibb.co/dQQ6fhj/Group-6.png");
+    background: url("https://i.ibb.co/BnMXg7w/Group-6.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+.abtn2:active{
+    transform: scale( 1.2, 1.2 )
+}
+
 .abtn3 {
     width: 50%;
     height: 100%;
@@ -99,11 +139,15 @@
     float: left;
     border: 0;
 
-    background: url("https://i.ibb.co/Bsm99Zj/Group-4.png");
+    background: url("https://i.ibb.co/TMCgL9d/Group-5.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+.abtn3:active{
+    transform: scale( 1.2, 1.2 )
+}
+
 .abtn4 {
     width: 50%;
     height: 100%;
@@ -115,10 +159,12 @@
     float: left;
     border: 0;
 
-    background: url("https://i.ibb.co/GkvNBcL/Group-5.png");
+    background: url("https://i.ibb.co/7yPJngp/Group-4.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.abtn4:active{
+    transform: scale( 1.2, 1.2 )
+}
 

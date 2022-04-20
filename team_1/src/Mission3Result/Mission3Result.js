@@ -24,7 +24,11 @@ function Mission3Result() {
 
     return( 
         <Link to="/Loading">
-            <div className='mission3'>
+            <div className='mission3Result'>
+                <div className='topbar3'>
+                    <div className='topbar3s'/>
+                    <div className='topbar3m'/>
+                </div>
                 <div className={WaterResult}/>
             </div>
         </Link>

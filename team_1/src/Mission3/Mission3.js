@@ -1,6 +1,6 @@
 import './Mission3.css';
 import { Link } from "react-router-dom";
-import React from "react";
+import React, {useEffect} from "react";
 
 let water1 = 0;
 let water2 = 0;
@@ -8,6 +8,12 @@ let water3 = 0;
 
 function Mission3() {
     let currentClick3 = "";
+
+    useEffect(() => {
+        water1 = 0;
+        water2 = 0;
+        water3 = 0;
+      }, [])
 
     const GetClick3 = (e) => {
         currentClick3 = e.target.id;
@@ -34,6 +40,10 @@ function Mission3() {
 
     return( 
         <div className='mission3'>
+            <div className='topbar3'>
+                    <div className='topbar3s'/>
+                    <div className='topbar3m'/>
+            </div>
             <div className="comment">
             이제 양액으로 영양분을 줘보자!<td/>어떤 농도가 식물에게 적당할까?
             </div>

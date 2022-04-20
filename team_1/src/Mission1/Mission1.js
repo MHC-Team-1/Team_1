@@ -1,12 +1,16 @@
 import './Mission1.css';
 import { Link } from "react-router-dom"
-import React from 'react';
+import React, {useEffect} from 'react';
 
 let Result1 = 0;
 
 
 function Mission1() {
     let currentClick1 = "";
+
+    useEffect(() => {
+        Result1 = 0;
+      }, [])
 
     const GetClick1 = (e) => {
         currentClick1 = e.target.id;
@@ -36,8 +40,11 @@ function Mission1() {
 
     return( 
             <div className='mission1'>
-                <div className="comment">
-                    4개 중에 뭘 심어야 좋을까?
+                <div className='topbar1'>
+                    <div className='topbar1s'/>
+                    <div className='topbar1m'/>
+                </div>
+                <div className="comment1">
                 </div>
                 <div className="rec1">
                     <Link to="/Mission1Result">
