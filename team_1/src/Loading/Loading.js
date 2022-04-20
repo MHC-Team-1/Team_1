@@ -64,10 +64,11 @@ function Loading() {
         <div className='Loading'>
                 {/* alert === true */}
                 <img className="Loadimg" alt="Loadimg" src="img/Loadimg.png"/>
-
+                <div className='Tembtn3Link'>
                 <Link to={setResult()}>
                     <img className="Tembtn3" alt="Tembtn" src="img/Tembtn.png"/>
                 </Link>
+                </div>
     </div>
 );
 }
