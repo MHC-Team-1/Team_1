@@ -115,7 +115,9 @@ html, body{
   background-size: contain;
 
   transform: translateX(-10%) translateY(-30%);
-  animation: animation_plant_2 113ms 0ms linear forwards, animation_plant_1 229ms 113ms linear forwards;
+  animation: animation_plant_2 1s ease forwards, animation_plant_1 1s ease forwards;
+  animation-iteration-count: infinite;
+
 }
 
 .ET{
@@ -136,7 +138,8 @@ html, body{
   background-size: contain;
 
   transform: translateX(-10%) translateY(-30%);
-  animation: animation_plant_2 80ms 0ms linear forwards, animation_plant_1 180ms 100ms linear forwards;
+  animation: animation_plant_2 2s ease forwards, animation_plant_1 2s ease forwards;
+  animation-iteration-count: infinite;
 }
 
 .BH{
@@ -157,7 +160,8 @@ html, body{
   background-size: contain;
 
   transform: translateX(-5%) translateY(-30%);
-  animation: animation_plant_2 120ms 0ms linear forwards, animation_plant_1 230ms 110ms linear forwards;
+  animation: animation_plant_2 1.6s ease forwards, animation_plant_1 1.6s ease forwards;
+  animation-iteration-count: infinite;
 }
 
 .KP{
@@ -178,7 +182,8 @@ html, body{
   background-size: contain;
 
   transform: translateX(0%) translateY(-30%);
-  animation: animation_plant_2 100ms 0ms linear forwards, animation_plant_1 120ms 100ms linear forwards;
+  animation: animation_plant_2 1.5s ease forwards, animation_plant_1 1.5s ease forwards;
+  animation-iteration-count: infinite;
 }
 
 .EventText {
