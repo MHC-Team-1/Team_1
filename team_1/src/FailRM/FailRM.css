@@ -1,73 +1,55 @@
 html, body{
-    margin: 0 auto;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-  
-    display: flex;
-  
-    max-width: 500px;
-  
-    font-family: Arial;
-    text-align: center;
-  }
-  
-  #root {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .FailRM{
-    width: 100%;
-    background: url("../../public/img/Failbg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-  }
+  margin: 0 auto;
+  padding: 0;
 
-  .FailRMimg{
-    position:relative;
+  display: flex;
 
-    width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    
-    margin-top: 10%;
-    bottom: 15%;
-  }
-
-  .Hint{
-    position:relative;
-
-    width: 60%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    
-    margin-top: 15%;
-  }
-
-.Retry1{
-  position:relative;
-
-  width: 60%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  
-  top: 10%;
+  font-family: Arial;
+  text-align: center;
 }
 
-.Tembtn4{
-  position:relative;
+#root {
+  height: 100%;
+  width: 100%;
+}
 
-  width: 60%;
+.FailRM{
+  background: url("../../public/img/Failbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.FailLink{
+  position: fixed;
+  display: block;
+  bottom: 16px;
+}
+
+.FailRMimg{
+  width: 90%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   
-  top: 10%;
-  margin-bottom: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.Hint{
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  }
+
+.Retry{
+width: 60%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+padding: 5%;
+margin-bottom: 20%;
 }
