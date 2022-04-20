@@ -4,7 +4,7 @@ html, body{
     height: 100%;
     width: 100%;
 
-    display: block;
+    display: flex;
 
     max-width: 800px;
     background: rgb(180, 180, 180);
@@ -23,11 +23,6 @@ html, body{
     height: 100%;
     width: 100%;
 
-    max-width: 500px;
-    max-height: 1000px;
-    
-    display: block;
-
     background: url("../../public/img/loadingbg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -39,7 +34,6 @@ html, body{
 }
 
 .Loadimg{
-    display: flex;
     position:relative;
 
     max-width: 500px;
@@ -53,7 +47,6 @@ html, body{
 }
 
 .Tembtn3{
-    display: flex;
     position:relative;
 
     max-width: 500px;

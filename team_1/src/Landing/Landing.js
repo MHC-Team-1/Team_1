@@ -5,25 +5,20 @@ function Landing() {
   return (
     <div className='Landing'>
       <div class="parent">
-      <div class="TopBG"></div>
       <div class="Leaf"></div>
-      {/* <div class="child-3"></div> */}
-    </div>
+    
+      <img className="LOGO" alt="LOGO" src="img/LOGO.png" />
 
-      <img className="Leaf" alt="Leaf" src="img/Leaf.png" />
-
-      <div className="Landingtext"><img className="Landingtext" alt="Landingtext" src="img/Landingtext.png"/></div>
+      <img className="RM" alt="RM" src="img/RM.png"/>
+      </div>
 <div>
     <div>
-        <Link to="/GameIntro"><img className="btn1" alt="YBUTTON1" src="img/YBUTTON1.png"/></Link>
+        <Link to="/GameIntro"><img className="YBUTTON" alt="YBUTTON" src="img/YBUTTON.png"/></Link>
       </div>
       </div>
       <Link to="/GameIntro"><img className="Frame1" alt="Frame1" src="img/Frame1.png"/></Link>
-      <div className="he3">
-      참여기간 : 2022년 4월 21일 ~ 5월 5일 ( 14일간)<br></br>
-      당첨발표 : 2022년 5월 9일 (개별 당첨자연락)<br></br>
-      참여방법 : 게임을 클리어 한 후 이벤트 응모 버튼을<br></br>
-      눌러 정보를 입력하면 참여완료!  
+      <div>
+      <img className="Ltext" alt="Ltext" src="img/Ltext.png"/>
       </div>
 
       <img className="Frame2" alt="Frame2" src="img/Frame2.png"/>
