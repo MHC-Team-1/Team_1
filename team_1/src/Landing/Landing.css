@@ -54,8 +54,9 @@ html, body{
   width: 90px;
   height: auto;
   left: 5px;
-margin-top: 1%;  
-z-index: 2;
+  margin-top: 1%;  
+  z-index: 2;
+
 }
 
 
