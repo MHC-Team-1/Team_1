@@ -1,6 +1,6 @@
 import './Mission2.css';
 import { Link } from "react-router-dom";
-import React from "react";
+import React, {useEffect} from "react";
 
 let light1 = 0;
 let light2 = 0;
@@ -9,11 +9,21 @@ let Result2 = 0;
 
 function Mission2() {
     let currentClick = "";
+    
+    useEffect(() => {
+        light1 = 0;
+        light2 = 0;
+        light3 = 0;
+        Result2 = 0;
+      }, [])
+
 
     const GetClick = (e) => {
         currentClick = e.target.id;
         setResult2();
     };
+
+
 
    const setResult2 = (e) => {
         let current = document.getElementById(currentClick);
@@ -53,19 +63,23 @@ function Mission2() {
                 console.log("light3 = 1 : "+light3);
             }
         }
+        
    };
 
-   const makeResult = () => {
+   function makeResult (){
         Result2 = light1 && light2 && light3;
         console.log("Result : " + Result2);
    };
-        
+    
+   
 
     return( 
         <div className='mission2'>
-            <div className="comment">
-                식물이 잘 자랄 수 있는 선택하고<td/>버튼을 눌러주세요! (다중 선택 가능)
+            <div className='topbar2'>
+                    <div className='topbar2s'/>
+                    <div className='topbar2m'/>
             </div>
+            <div className="comment2"/>
             
             {<div className="brec1">
                 <button id="bbtn1" className="bbtn1" onClick={GetClick}/>

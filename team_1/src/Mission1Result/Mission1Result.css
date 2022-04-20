@@ -7,7 +7,7 @@
     
     display: block;
 
-    background: url("https://i.ibb.co/MNXCN4b/Group-37.png");
+    background: url("https://i.ibb.co/tDYKGH4/BG-dark-2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -16,6 +16,25 @@
     text-align: center;
    
 }
+
+.comment1r{
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    height: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 12%;
+    z-index: 3;
+
+    background: url("https://i.ibb.co/PzsKL3b/image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    color: #000000;
+}
+
 
 .result1 {
     width: 100%;
@@ -70,7 +89,7 @@
     left: 50%;
 
     transform: translateX(-50%) translateY(-50%);
-    animation: animation_seed 600ms 0ms linear forwards;
+    animation: animation_seed 800ms 0ms linear forwards;
 
     position:absolute;
 
@@ -93,12 +112,15 @@
 }
 
 .nextstage{
-    width: 50%;
-    height: 20%;
-    margin-left: 25%;
-    bottom:3%;
+    width: 100%;
+    max-width: 500px;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom:5%;
 
     position:absolute;
+    display: block;
 
     background: url("https://i.ibb.co/mGVbwLH/Next-Stage-1.png");
     background-size: contain;

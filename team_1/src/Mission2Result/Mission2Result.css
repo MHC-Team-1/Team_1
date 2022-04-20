@@ -1,4 +1,4 @@
-.mission2{
+.mission2Result{
     height: 100%;
     width: 100%;
 
@@ -7,7 +7,7 @@
     
     display: block;
 
-    background: url("https://i.ibb.co/Srs5VkV/back2.png");
+    background: url("https://i.ibb.co/SR4nv3W/Group-23-1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -15,6 +15,24 @@
     font-family: Arial;
     text-align: center;
    
+}
+
+.comment2r{
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    height: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 12%;
+    z-index: 3;
+
+    background: url("https://i.ibb.co/bJfWFGY/LED.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    color: #000000;
 }
 
 .result2_light_w {

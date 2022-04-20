@@ -7,7 +7,7 @@
     
     display: block;
 
-    background: url("https://i.ibb.co/Srs5VkV/back2.png");
+    background: url("https://i.ibb.co/SR4nv3W/Group-23-1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -15,6 +15,61 @@
     font-family: Arial;
     text-align: center;
    
+}
+
+.topbar2{
+    width: 100%;
+    max-width: 500px;
+    height: 8%;
+
+    z-index: 3;
+
+    top: 1%;
+    position : fixed;
+}
+
+.topbar2s{
+    width: 28%;
+    height: 100%;
+
+    left: 5%;
+    position: absolute;
+
+    background: url("https://i.ibb.co/gm8fswD/Group-44.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.topbar2m{
+    width: 48%;
+    height: 100%;
+
+    right: 5%;
+    position: absolute;
+
+    background: url("https://i.ibb.co/Y23hg6d/Group-43.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.comment2{
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    height: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10%;
+    z-index: 3;
+
+    background: url("https://i.ibb.co/C7wr6Ps/Group-40.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    color: #000000;
 }
 
 
@@ -58,6 +113,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.bbtn1:active{
+    transform: scale( 1.2, 1.2 )
+}
 
 .bbtn2 {
     width: 33.3%;
@@ -75,6 +133,10 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.bbtn2:active{
+    transform: scale( 1.2, 1.2 )
+}
+
 .bbtn3 {
     width: 33.3%;
     height: 100%;
@@ -90,6 +152,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+.bbtn3:active{
+    transform: scale( 1.2, 1.2 )
 }
 
 .next_btn{
@@ -107,5 +172,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
 }
+
+
