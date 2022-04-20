@@ -4,7 +4,7 @@ html, body{
   height: 100%;
   width: 100%;
 
-  display: block;
+  display: flex;
 
   max-width: 500px;
 
@@ -19,24 +19,43 @@ html, body{
 
 .Landing{
   width: 100%;
-  max-width: 500px;
-  height: 1413px;;
   background: url("../../public/img/Landingbg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.TopBG {
-  background: src="img/TopBG_png1.png";
-  max-width: 500px;
-  height: 100%;
+.LOGO {
+  position: relative;
+  max-width: ;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.Landingtext{
+  display: flex;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
 }
 
-.Leaf{
-  width: 100%;
+/* .Leaf{
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+} */
+
+.RM{
+
+  /* position: absolute; */
+  width: 90px;
+  height: auto;
+  left: 5px;
+margin-top: 1%;  
+z-index: 2;
 }
 
 
@@ -53,16 +72,15 @@ html, body{
 }
 
 /* 게임시작하기 */
-.btn1 {
+.YBUTTON {
   display: flex;
 
-  width: 30%;
-  height: 3%;
-  max-width: 500px;
+  width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  margin-top: 50%;
+  margin-top: 7%;
   
 }
 
@@ -72,35 +90,26 @@ html, body{
 
   width: 30%;
   height: auto;
-  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   margin-top: 7%;
-  margin-bottom: 15%;
+  margin-bottom: 7%;
 
   border: 0;
 }
 
 /* 참여기간~참여완료! */
-.he3{
+.Ltext{
   display: flex;
 
-  width: 100%;
-  height: 0%;
-  max-width: 500px;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
 
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 157.2%;
-  /* or 31px */
-
-  letter-spacing: -0.1em;
+  margin-top: 7%;
+  margin-bottom: 7%;
 
   color: #000000;
 }
@@ -109,14 +118,14 @@ html, body{
 .Frame2 {
   display: flex;
 
-  width: 30%;
+  width: 28%;
   height: auto;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  margin-top: 15%;
-
+  margin-top: 7%;
+  margin-bottom: 7%;
   border: 0;
 }
 
@@ -124,13 +133,14 @@ html, body{
 .Kit{
   display: flex;
 
-  width: 60%;
+  width: 80%;
   height: auto;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top: 2%;
+  margin-top: 7%;
+  margin-bottom: 7%;
 
   border: 0;
 }
@@ -151,7 +161,9 @@ html, body{
   /* or 20px */
   
   letter-spacing: -0.1em;
-  
+  margin-top: 7%;
+  margin-bottom: 7%;
+
   color: #000000;
   
 }
