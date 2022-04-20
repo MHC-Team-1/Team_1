@@ -44,9 +44,7 @@ function Mission3() {
                     <div className='topbar3s'/>
                     <div className='topbar3m'/>
             </div>
-            <div className="comment">
-            이제 양액으로 영양분을 줘보자!<td/>어떤 농도가 식물에게 적당할까?
-            </div>
+            <div className="comment3"/>
             
             <div className="brec1">
                 <Link to="/Mission3Result">

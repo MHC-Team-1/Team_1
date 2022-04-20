@@ -29,7 +29,9 @@ function Mission3Result() {
                     <div className='topbar3s'/>
                     <div className='topbar3m'/>
                 </div>
+                <div className="comment3r"/>
                 <div className={WaterResult}/>
+                <div className="next_btn3"/>
             </div>
         </Link>
     
