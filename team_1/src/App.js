@@ -9,14 +9,14 @@ import Mission3 from './Mission3/Mission3'
 import Mission3Result from './Mission3Result/Mission3Result'
 import Loading from './Loading/Loading'
 import FailRM from './FailRM/FailRM'
+import FailKP from './FailKP/FailKP'
+import FailBH from './FailBH/FailBH'
+import FailET from './FailET/FailET'
 import SucRM from './SucRM/SucRM'
+import SucKP from './SucKP/SucKP'
+import SucBH from './SucBH/SucBH'
+import SucET from './SucET/SucET'
 import GFInfo from './GFInfo/GFInfo'
-
-
-//import FailRM from './FailKP/FailKP'
-//import FailRM from './FailBH/FailBH'
-//import FailRM from './FailET/FailET'
-
 import HintPage from './HintPage/HintPage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
@@ -35,10 +35,13 @@ function App() {
         <Route path="/Mission3Result" element={<Mission3Result/>}/>
         <Route path="/Loading" element={<Loading/>} />
         <Route path="/FailRM" element={<FailRM/>} />
-        { /*<Route path="/FailKP" element={<FailKP/>} />
+        <Route path="/FailKP" element={<FailKP/>} />
         <Route path="/FailBH" element={<FailBH/>} />
-        <Route path="/FailET" element={<FailET/>} /> */ }
+        <Route path="/FailET" element={<FailET/>} />
         <Route path="/SucRM" element={<SucRM/>} />
+        <Route path="/SucKP" element={<SucKP/>} />
+        <Route path="/SucBH" element={<SucBH/>} />
+        <Route path="/SucET" element={<SucET/>} />
         <Route path="/GFInfo" element={<GFInfo/>} />
         <Route path="/HintPage" element={<HintPage/>} />
       </Routes>
