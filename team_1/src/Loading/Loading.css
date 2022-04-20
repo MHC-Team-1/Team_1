@@ -6,7 +6,7 @@
 .Loading{
     height: 100%;
     width: 100%;
-    background: url("../../public/img/loadingbg.png");
+    background: url("../../public/img/Sucbg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,27 +25,42 @@
     width: 80%;
 }
 
+.parent{
+    position:relative;
+}
 
 .Loadimg{
-    max-width: 500px;
+    position: absolute;
     width: 60%;
-    height: auto;
-    margin-left: 0%;
     z-index: 2;
-    top: 0%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+
 }
 
-@keyframes animation_Tembtn3 {
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0;
-    }
-    70%{
-        opacity: 1;
-    }
+
+@keyframes animation_Whi{
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
 }
+
+.Whi{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    right: 5%;
+    bottom: 0%;
+    z-index: 1;
+
+    transform: translate(-50%, -50%);
+    animation: animation_Whi 8s infinite linear;
+}
+
 
 
 .Tembtn3{
@@ -60,7 +75,7 @@
     animation: animation_Talk5 3s;
     animation-fill-mode: forwards;
 
-    margin-top: 90%;
+    margin-top: 50%;
 }
 
 
