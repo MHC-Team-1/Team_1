@@ -2,7 +2,6 @@ import './Landing.css'
 import { Link } from 'react-router-dom'
 
 function Landing() {
-
   return (
     <div className='Landing'>
       <div className="parent">
@@ -21,11 +20,6 @@ function Landing() {
         
       </div>
 
-<<<<<<< HEAD
-  </div>
-
-
-=======
       
 
       <div className="Frame1">
@@ -40,11 +34,8 @@ function Landing() {
         <div className="warning"/>
       </div>
     </div>
->>>>>>> 833433d2d94c90d2112589325f7011ef832ad584
   )
 }
-
-
 
 
 
