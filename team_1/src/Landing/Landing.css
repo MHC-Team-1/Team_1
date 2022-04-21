@@ -200,7 +200,7 @@ html, body{
   bottom: 20%;
 
   border: 0;
-  background: url("https://i.ibb.co/Ct44YBb/Event-Text-1.png");
+  background: url("../../public/img/EventText.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; 
@@ -352,7 +352,7 @@ html, body{
   
   bottom: -40%;
 
-  background: url("https://i.ibb.co/QYyZ1dg/image.png");
+  background: url("../../public/img/Warning.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; 
