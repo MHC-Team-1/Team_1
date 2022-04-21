@@ -63,7 +63,7 @@
 
 
 
-.Tembtn3{
+.Loadbtn{
     position:relative;
 
     max-width: 500px;
@@ -75,7 +75,9 @@
     animation: animation_Talk5 3s;
     animation-fill-mode: forwards;
 
-    margin-top: 50%;
+    padding: 10%;
+    margin-top: 20%;
+    margin-bottom: 10%;
 }
 
 
