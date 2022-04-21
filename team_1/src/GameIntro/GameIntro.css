@@ -170,7 +170,7 @@
 }
 
 
-@keyframes animation_Tembtn1 {
+@keyframes animation_Nextbtn {
     0%{
         opacity: 0;
     }
@@ -182,7 +182,7 @@
     }
 }
 
-.Tembtn1{
+.Nextbtn{
     position:relative;
 
     width: 50%;
@@ -190,7 +190,7 @@
     margin-right: 10%;
 
     opacity: 100%;
-    animation: animation_Tembtn1 13s;
+    animation: animation_Nextbtn 13s;
     animation-fill-mode: forwards;
 
     margin-top: 10%;

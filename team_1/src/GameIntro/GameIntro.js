@@ -12,7 +12,7 @@ function GameIntro() {
                 <img className="Talk4" alt="Talk4" src="img/Talk4.png" />
                 <img className="Talk5" alt="Talk5" src="img/Talk5.png" />
                 <img className="Talk6" alt="Talk6" src="img/Talk6.png" />
-                <Link to="/Mission1"><img className="Tembtn1" alt="Tembtn" src="img/Tembtn.png"/></Link>
+                <Link to="/Mission1"><img className="Nextbtn" alt="Nextbtn" src="img/Nextbtn.png"/></Link>
                 </div>
             </div>
     );
