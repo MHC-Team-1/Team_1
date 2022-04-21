@@ -69,7 +69,7 @@ function Loading() {
                 </div>
                 <div className='Tembtn3Link'>
                 <Link to={setResult()}>
-                    <img className="Tembtn3" alt="Tembtn" src="img/Loadbtn.png"/>
+                    <img className="Loadbtn" alt="Loadbtn" src="img/Loadbtn.png"/>
                 </Link>
                 </div>
     </div>
