@@ -28,18 +28,18 @@
 }
 
 .Hint{
-  width: 60%;
+  width: 90%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 5%;
+  padding: 0%;
   }
 
 .Retry{
-width: 60%;
+width: 90%;
 height: auto;
 margin-left: auto;
 margin-right: auto;
 padding: 5%;
-margin-bottom: 20%;
+margin-bottom: 30%;
 }
