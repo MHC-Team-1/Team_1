@@ -13,25 +13,46 @@
 
 }
 
-.SucETimg{
-  display: flex;
+
+/* .Sucparent{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Str1{
   position:relative;
 
-  width: 100%;
+  width: 50%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   
   top: 0%;
   bottom: 15%;
+
+  z-index: 3;
+} */
+
+.SucETimg{
+  position: relative;
+
+  width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+  top: 0px;
+  z-index: 2;
 }
 
 .Smtbtn{
+  position: relative;
   width: 80%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   padding: 10%;
-  margin-top: 0%;
-  bottom: 10%;
+  top: -80px;
   }
