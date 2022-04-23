@@ -10,13 +10,141 @@
   background-size: cover;
   position: relative;
 }
+.Sucparent{
+  position:relative;
+  top: -70px;
+}
+
+/* 
+@keyframes animation_Str1{
+  0% {
+      transform:translateX(0px),translateY(-200px);
+    }
+    30% {
+      transform:translatex(50px),translateY(-100px);
+    }
+    60% {
+      transform:translatex(10px), translateY(0px);
+    }
+    100% {
+      transform:translateY(200px);
+    }
+} */
+
+@keyframes transY {
+  0%{
+    transform: translateY(-200px);
+  }
+	100% {
+		transform: translateY(300px);
+    opacity: 50%;
+	}
+}
+
+
+.Str1{
+  position: relative;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  top: 200px;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  animation: 1.5s transY ease-in infinite backwards;
+}
+
+.Str2{
+  position: relative;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  top: 200px;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  animation: 2s transY ease-in infinite backwards;
+}
+
+.Str3{
+  position: relative;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  top: 200px;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  animation: 1.5s transY ease-in infinite backwards;
+}
+
+.Str4{
+  position: relative;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  top: 200px;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  animation: 2s transY ease-in infinite backwards;
+}
+
+@keyframes Emoji {
+  0%{
+    transform: translateY(-300px);
+  }
+  90% {
+    opacity: 90%;
+	}
+	100% {
+		transform: translateY(180px);
+    opacity: 0%;
+	}
+}
+
+.Emoji{
+  position: relative;
+  width: 10%;
+  left: 200px;
+  
+  top: 200px;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  animation: 1.8s Emoji ease-in infinite backwards;
+}
+
+.hun{
+  position: relative;
+  width: 13%;
+  right: 130px;
+  
+  top: 200px;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  animation: 2s Emoji ease-in infinite backwards;
+}
+
+.clap{
+  position: relative;
+  width: 10%;
+  left: 50px;
+  
+  top: 200px;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  animation: 2.3s Emoji ease-in infinite backwards;
+}
+
 
 .SucRMimg{
-  width: 100%;
+  position: relative;
+
+  width: 95%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   
-  margin-top: 0%;
-  bottom: 15%;
+  top: 0px;
+  z-index: 2;
 }
