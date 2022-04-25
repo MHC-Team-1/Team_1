@@ -1,0 +1,15 @@
+.Bgm{
+  top: 0;
+  position: fixed;
+  z-index: 100;
+}
+.controller{
+  background-color:transparent;
+  border: 0;
+
+  font-size:x-large;
+  
+  font-weight: bold;
+  
+  color: #ffffff;
+}
