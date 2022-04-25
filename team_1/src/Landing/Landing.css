@@ -49,9 +49,6 @@ html, body{
   max-width: 500px;
   position:absolute;
   height: 100%;
-  max-height: max-content;
-
-  top: 0;
 
   background: url("../../public/img/backimg.png");
   background-repeat: no-repeat;
