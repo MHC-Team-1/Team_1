@@ -15,15 +15,13 @@ function Landing() {
         </div>
         <div className="EventText"/>
         <Link to="/GameIntro">
-          <div className="YBUTTON" src="img/YBUTTON.png"/>
-      </Link>
-        
-      </div>
-
-      
+          <div className="YBUTTON" src="img/YBUTTON.png"/></Link>
+          <Link to="/IntroGFInfo">
+          <div className="Gsfbtn" src="img/Gsfbtn.png"/>
+        </Link>
+      </div>      
 
       <div className="Frame1">
-        <div className="next_img"/>
         <div className="eventinfo1"/>
         <div className="info"/>
       </div>

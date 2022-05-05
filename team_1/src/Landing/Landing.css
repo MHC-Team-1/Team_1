@@ -215,10 +215,31 @@ html, body{
   margin-left: 10%;
   margin-right: 10%;
 
- bottom: 10%;
+ bottom: 15%;
 
   
   background: url("https://i.ibb.co/cQhsfCn/YBUTTON-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+
+}
+
+/* 구스팜 알아보기 */
+.Gsfbtn {
+  display:block;
+  position:absolute;
+
+  width: 80%;
+  max-width: 500px;
+  height: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  bottom: 5%;
+
+  
+  background: url("https://i.ibb.co/PCvbf47/Gsfbtn.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; 

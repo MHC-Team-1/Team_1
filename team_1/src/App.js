@@ -1,4 +1,5 @@
 import Landing from './Landing/Landing'
+import IntroGFInfo from './IntroGFInfo/IntroGFInfo'
 import Game from './Game/Game'
 import GameIntro from './GameIntro/GameIntro'
 import Mission1 from './Mission1/Mission1'
@@ -27,6 +28,7 @@ function App() {
       <Bgm />
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/IntroGFInfo" element={<IntroGFInfo />} />
         <Route path="/GameIntro" element={<GameIntro />} />
         <Route path="/Game" element={<Game />} />
         <Route path="/Mission1" element={<Mission1 />} />
