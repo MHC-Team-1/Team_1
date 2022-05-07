@@ -13,12 +13,16 @@ function Landing() {
           <div className="BH"/>
           <div className="KP"/>
         </div>
+
         <div className="EventText"/>
+
         <Link to="/GameIntro">
-          <div className="YBUTTON" src="img/YBUTTON.png"/></Link>
-          <Link to="/IntroGFInfo">
+          <div className="YBUTTON2" src="img/YBUTTON.png"/>
+        </Link>
+        <Link to="/IntroGFInfo">
           <div className="Gsfbtn" src="img/Gsfbtn.png"/>
         </Link>
+
       </div>      
 
       <div className="Frame1">
